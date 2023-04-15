@@ -10,6 +10,7 @@
 
   /* line height */
   --hero-p-lh: 18px;
+  --card-title-lh: 24px;
   
   /* color */
   --dark-green: #005F57;
@@ -24,6 +25,7 @@
   /* radius */
   --hero-rad : 20px;
   --btn-rad : 12px;
+  --tags-rad: 8px;
 }
 
 * {
