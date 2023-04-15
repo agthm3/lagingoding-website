@@ -1,0 +1,139 @@
+body{
+
+}
+section#hero-bootcamp .container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+section#hero-bootcamp .title h4{
+  font-size: 18px;
+  font-weight: var(--bold);
+  color: var(--teal);
+}
+
+section#hero-bootcamp .title h1{
+  margin-top: -6px;
+  font-size: 36px;
+  font-weight: var(--bold);
+  color: var(--black);
+}
+
+section#hero-bootcamp .desc{
+  width: 736px;
+  margin-top: 16px;
+}
+
+section#hero-bootcamp .desc p{
+  font-size: 14px;
+  font-weight: var(--regular);
+  line-height: var(--hero-p-lh);
+  margin-bottom: 0;
+}
+
+/* section#card-bootcamp .container-card .row{
+  margin: 12px 0;
+} */
+
+section#card-bootcamp .container-card ul.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  justify-content: center;
+}
+
+section#card-bootcamp .container-card ul.card-wrapper li{
+  margin: 8px;
+}
+
+section#card-bootcamp .card-bootcamp{
+  background-color: var(--white);
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 12px; */
+  border-radius: var(--hero-rad);
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+section#card-bootcamp .card-bootcamp img{
+  border-radius: 12px 12px 0 0;
+  height: 212px;
+  object-fit: cover;
+}
+
+section#card-bootcamp .card-bootcamp .tags-wrapper{
+  position: relative;
+  top: -42px;
+  left: 8px;
+}
+
+section#card-bootcamp .card-bootcamp .tags-wrapper .tags-bootcamp button{
+  border: none;
+  border-radius: var(--tags-rad);
+  background-color: var(--teal);
+  color: var(--white);
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: var(--medium);
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp {
+  padding: 0px 14px 18px 14px;
+  margin-top: -8px;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--teal);
+  font-weight: var(--bold);
+  font-size: 14px;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .bootcamp-title{
+  font-size: 18px;
+  font-weight: var(--semi-bold);
+  line-height: var(--card-title-lh);
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details{
+  margin-top: 12px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details ul.price-wrapper {
+  margin-bottom: 0;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details ul.price-wrapper li{
+  font-size: 16px;
+  font-weight: var(--semi-bold);
+  margin: 0;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details ul.price-wrapper li.normal-price{
+  color: var(--gray);
+  text-decoration-line: line-through;
+  margin-right: 10px;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details ul.price-wrapper li.disc-price{
+  color: var(--teal);
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details .btn-detail button{
+  border: none;
+  background-color: transparent;
+  padding: 4px 8px;
+}
+
+section#card-bootcamp .card-bootcamp .desc-bootcamp .details .btn-detail button i{
+  color: var(--teal);
+  font-size: 20px;
+}
