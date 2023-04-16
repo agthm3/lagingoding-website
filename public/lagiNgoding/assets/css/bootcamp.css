@@ -40,7 +40,7 @@ section#hero-bootcamp .desc p{
 section#card-bootcamp .container-card ul.card-wrapper{
   display: flex;
   flex-wrap: wrap;
-  max-width: 1140px;
+  /* max-width: 1140px; */
   justify-content: center;
 }
 
