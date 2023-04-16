@@ -21,6 +21,7 @@
   --black: #212529;
   --gray: #9B9696;  
   --gray-hr : #DADADA54;
+  --white-bg: #f7f7f7;
 
   /* radius */
   --hero-rad : 20px;
@@ -126,7 +127,7 @@ section#hero .hero-bg ul li img{
   width: 100%;
 }
 
-section#recentClass .title, section#faq .title{
+.title{
   text-align: center;
   padding: 12px;
 }
@@ -147,6 +148,10 @@ section#recentClass .title h1, section#faq .title h1{
 section#recentClass .card-recent-class{
   display: flex;
   justify-content: center;
+}
+
+section#recentClass .card-recent-class ul.card-list li{
+  margin: 0 10px;
 }
 
 section#recentClass .container-card-class{
