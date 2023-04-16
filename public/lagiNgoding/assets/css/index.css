@@ -136,7 +136,7 @@ section#hero .hero-bg ul li.hero-text .btn-hero button{
   border: none;
   color: var(--teal);
   font-weight: var(--semi-bold);
-  padding: 8px 12px;
+  padding: 8px 20px;
   border-radius: var(--btn-rad);
 }
 
@@ -238,7 +238,7 @@ section#faq .container-faq{
 
 section#faq .container-faq .accordion-item{
   border: none;
-  margin: 12px 0;
+  margin: 12px 0 0;
   background-color: var(--white);
   border-radius: var(--btn-rad); 
 }
@@ -270,20 +270,20 @@ section#ctaBadge .cta-bg{
 }
 
 section#ctaBadge .cta-bg img{
-  width: 10%;
+  width: 12%;
   margin-bottom: 18px;
-}
-
-section#ctaBadge .cta-bg .cta-text p span{
-  display: block;
 }
 
 section#ctaBadge .cta-bg .cta-text {
   margin-bottom: 24px;
   font-weight: var(--regular);
-  font-size: 18px;
-  color: var(--white);
+  width: 440px;
 }
+
+section#ctaBadge .cta-bg .cta-text p{
+  font-size: 16px;
+  color: var(--white);
+}  
 
 section#ctaBadge .cta-bg .btn-cta button{
   background-color: var(--white);

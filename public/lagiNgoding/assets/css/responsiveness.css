@@ -129,7 +129,76 @@
   }
 
   section#hero .hero-bg ul li.hero-text .btn-hero button{
-    padding: 8px 16px;
+    padding: 8px 24px;
     font-size: 12px;
+  }
+
+  section#faq .container-faq {
+    width: 100%;
+  }
+
+  section#ctaBadge .cta-bg img{
+    width: 24%;
+    margin-bottom: 18px;
+  }
+
+  section#ctaBadge .cta-bg .cta-text p {
+    font-size: 14px;
+  }
+
+  section#ctaBadge .cta-bg .btn-cta button {
+    font-size: 12px;
+  }
+
+  section#ctaBadge .cta-bg .btn-cta button {
+    padding: 8px 16px;
+  }
+
+  footer {
+    padding: 42px 0;
+  }
+}
+
+@media screen and (max-width : 612px) {
+
+  section#hero .hero-bg ul li.hero-text .btn-hero button{
+    padding: 8px 20px;
+  }
+
+  section#ctaBadge .cta-bg{
+    display: flex;
+    align-items: center;
+  }
+  
+  section#ctaBadge .cta-bg > *{
+    margin: 24px 0;
+  }
+
+  section#ctaBadge .cta-bg img {
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+  section#ctaBadge .cta-bg .cta-text {
+      width: 68vw;
+      margin-bottom: 0;
+  }
+  section#ctaBadge .cta-bg .cta-text p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  section#ctaBadge .cta-bg .btn-cta button {
+    padding: 8px 20px;
+    border-radius: var(--tags-rad);
+  }
+
+}
+
+@media screen and (max-width : 426px) {
+  section#ctaBadge .cta-bg img {
+    width: 60%;
+    margin-bottom: 0;
   }
 }
