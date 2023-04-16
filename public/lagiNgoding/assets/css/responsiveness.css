@@ -53,6 +53,51 @@
     font-weight: var(--semi-bold);
   }
 
+  section#hero-bootcamp .desc{
+    width: 100%;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp{
+    width: 206px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .tags-wrapper .tags-bootcamp button {
+    font-size: 12px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .tags-wrapper {
+    top: -38px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp img {
+    height: 172px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .desc-bootcamp button {
+    font-size: 12px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .desc-bootcamp .bootcamp-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .desc-bootcamp .details ul.price-wrapper {
+    justify-content: space-between;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .desc-bootcamp .details ul.price-wrapper li {
+    font-size: 12px;
+  }
+
+  section#card-bootcamp .container-card ul.card-wrapper li .card-bootcamp .desc-bootcamp .details .btn-detail button i {
+    font-size: 16px;
+  }
+
   footer .desc-lagiNgoding img {
     width: 52%;
     margin-bottom: 20px;
@@ -161,6 +206,14 @@
 
 @media screen and (max-width : 612px) {
 
+  section .title h4 {
+    font-size: 14px;
+  }
+
+  section .title h1 {
+    font-size: 26px;
+  }
+
   section#hero .hero-bg ul li.hero-text .btn-hero button{
     padding: 8px 20px;
   }
@@ -192,6 +245,13 @@
   section#ctaBadge .cta-bg .btn-cta button {
     padding: 8px 20px;
     border-radius: var(--tags-rad);
+  }
+
+}
+
+@media screen and (max-width : 586px) {
+  section#hero-bootcamp .desc p {
+    font-size: 14px;
   }
 
 }

@@ -10,7 +10,7 @@
 
   /* line height */
   --hero-p-lh: 18px;
-  --card-title-lh: 24px;
+  /* --card-title-lh: 18px; */
   
   /* color */
   --dark-green: #005F57;
@@ -150,16 +150,27 @@ section#hero .hero-bg ul li img{
   width: 100%;
 }
 
-section#recentClass .card-recent-class{
+section#recentClass .container-slider{
+  background-color: #9B9696;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 60vw;
 }
 
-section#recentClass .card-recent-class ul.card-list li{
+section#recentClass .slider-wrapper{
+  padding: 20px 80px 40px;
+  margin:0 6px;
+}
+
+section#recentClass .slider-wrapper ul{
+  margin-bottom: 0;
+}
+
+section#recentClass .slider-wrapper ul.card-list li{
   margin: 0 10px;
 }
 
-section#recentClass .container-card-class{
+section#recentClass .slider-wrapper .card-recent-class{
   /* background: url(../images/example-card-image.png);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -167,22 +178,23 @@ section#recentClass .container-card-class{
   height: 376px;
   /* width: 264px;
   height: 364px; */
-  padding: 10px 0;
-  display: flex;
+  /* padding: 10px 0; */
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-end; */
   border-radius: var(--hero-rad);
 }
 
-section#recentClass .container-card-class img{
-  width: 100%;
-  height: auto;
-  /* height: fill; */
+section#recentClass .slider-wrapper .card-recent-class img{
+  width: 256px;
+  height: 376px;
+  /* height: 376px;
+  background: aqua; */
   object-fit: cover;
   border-radius: var(--hero-rad);
 }
 
-section#recentClass .desc-card-class{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class{
   background-color: var(--white);
   margin: 0 14px;
   border-radius: var(--btn-rad);
@@ -191,43 +203,48 @@ section#recentClass .desc-card-class{
   top: -180px
 }
 
-section#recentClass .desc-card-class .tags{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class .tags{
   background-color: var(--teal);
   text-transform: uppercase;
   text-align: center;
   border-radius: var(--tags-rad);
   padding: 4px 0;
   color: var(--white);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: var(--medium);
 }
 
-section#recentClass .desc-card-class hr{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class hr{
   background-color: var(--gray-hr);
   margin: 10px 0;
 }
 
-section#recentClass .desc-card-class a{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class button{
   font-size: 14px;
   font-weight: var(--regular);
   line-height: var(--hero-p-lh);
   margin-bottom: 0;
-  text-decoration: none;
   color: var(--black);
+  border: none;
+  background-color: transparent;
+  text-align: left;
 }
 
-section#recentClass .desc-card-class ul li{
-  font-size: 16px;
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class ul.price-wrap{
+  justify-content: space-between;
+}
+
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class ul li{
+  font-size: 14px;
   font-weight: var(--semi-bold);
 }
 
-section#recentClass .desc-card-class ul li.normal-price{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class ul li.normal-price{
   color: var(--gray);
   text-decoration-line: line-through;
-  margin-right: 10px;
 }
 
-section#recentClass .desc-card-class ul li.disc-price{
+section#recentClass .slider-wrapper .card-recent-class .desc-card-class ul li.disc-price{
   color: var(--teal);
 }
 
