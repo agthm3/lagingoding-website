@@ -1,0 +1,135 @@
+@media screen and (max-width : 1200px) {
+  section#hero .hero-bg ul li.hero-text h1{
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width : 991px) {
+  section .title h4{
+    font-size: 16px;
+  }
+  
+  section .title h1{
+    margin-top: -6px;
+    font-size: 32px;
+  }
+
+  section#hero .hero-bg ul li.hero-text{
+    padding: 16px 0;
+  }
+
+  section#hero .hero-bg ul li.hero-text h1{
+    font-size: 24px;
+  }
+
+  section#hero .hero-bg ul li.hero-text p{
+    font-size: 12px;
+  }
+  
+  section#hero .hero-bg ul li.hero-text .btn-hero {
+    margin-top: 0;
+  }
+
+  section#hero .hero-bg ul li.hero-text .btn-hero button{
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  section#ctaBadge .cta-bg{
+    background-position-x: center;
+  }
+
+  section#ctaBadge .cta-bg img {
+    width: 18%;
+  }
+
+  section#ctaBadge .cta-bg .cta-text{
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+
+  section#ctaBadge .cta-bg .btn-cta button{
+    font-size: 14px;
+    font-weight: var(--semi-bold);
+  }
+
+  footer .desc-lagiNgoding img {
+    width: 52%;
+    margin-bottom: 20px;
+  }
+
+  footer .desc-lagiNgoding p {
+    font-size: 12px;
+  }
+
+  footer h4 {
+    margin: 4px 0 20px;
+  }
+
+  footer a{
+    font-size: 12px;
+  }
+
+  footer ul.bottom-footer li{
+    font-size: 14px;
+  }
+
+  footer ul.bottom-footer ul.socmed li {
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width : 767px) {
+  nav .navbar-collapse{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav .navbar-collapse ul{
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  section#hero .hero-bg ul.hero-content-list{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  section#hero .hero-bg ul li{
+    width: 100%;
+  }
+
+  section#hero .hero-bg ul li.hero-text{
+    padding: 16px 0 0;
+  }
+
+  section#hero .hero-bg ul li.hero-text{
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+  }
+
+  section#hero .hero-bg ul li.hero-text h1{
+    font-size: 24px;
+  }
+
+  section#hero .hero-bg ul li.hero-text p{
+    font-size: 12px;
+  }
+
+  section#hero .hero-bg ul li img {
+    width: 76%;
+  }
+
+  section#hero .hero-bg ul li.hero-text .btn-hero{
+    margin-top: 28px;
+  }
+
+  section#hero .hero-bg ul li.hero-text .btn-hero button{
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

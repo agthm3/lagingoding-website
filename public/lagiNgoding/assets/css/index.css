@@ -33,6 +33,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: var(--white-bg);
+}
+
 ul{
   list-style: none;
   display: flex;
@@ -40,15 +44,30 @@ ul{
   padding-left: 0;
 }
 
+section {
+  margin: 56px 0;
+}
+
+section .title h4{
+  font-size: 18px;
+  font-weight: var(--bold);
+  color: var(--teal);
+}
+
+.title{
+  text-align: center;
+  padding: 12px;
+}
+
 nav .navbar-collapse{
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
-  background-color: var(--white);
+  background-color: transparent;
 }
 
 nav .navbar-nav-link{
-  /* background-color: aqua; */
+  background-color: transparent;
   padding-right: 10px;
 }
 
@@ -65,8 +84,11 @@ nav .navbar-nav-link .nav-link.active{
   color: var(--teal);
 }
 
-section {
-  margin: 56px 0;
+section .title h1{
+  margin-top: -6px;
+  font-size: 36px;
+  font-weight: var(--bold);
+  color: var(--black);
 }
 
 section#hero .hero-bg{
@@ -87,9 +109,10 @@ section#hero .hero-bg ul li{
 section#hero .hero-bg ul li.hero-text{
   padding-left: 28px;
 }
-section#hero .hero-bg ul li.hero-text span{
+
+/* section#hero .hero-bg ul li.hero-text span{
   display: block;
-}
+} */
 
 section#hero .hero-bg ul li.hero-text h1{
   font-size: 36px;
@@ -105,7 +128,7 @@ section#hero .hero-bg ul li.hero-text p{
 }
 
 section#hero .hero-bg ul li.hero-text .btn-hero{
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 section#hero .hero-bg ul li.hero-text .btn-hero button{
@@ -125,24 +148,6 @@ section#hero .hero-bg ul li.hero-img{
 
 section#hero .hero-bg ul li img{
   width: 100%;
-}
-
-.title{
-  text-align: center;
-  padding: 12px;
-}
-
-section#recentClass .title h4, section#faq .title h4{
-  font-size: 18px;
-  font-weight: var(--bold);
-  color: var(--teal);
-}
-
-section#recentClass .title h1, section#faq .title h1{
-  margin-top: -6px;
-  font-size: 36px;
-  font-weight: var(--bold);
-  color: var(--black);
 }
 
 section#recentClass .card-recent-class{
@@ -171,6 +176,10 @@ section#recentClass .container-card-class{
 
 section#recentClass .container-card-class img{
   width: 100%;
+  height: auto;
+  /* height: fill; */
+  object-fit: cover;
+  border-radius: var(--hero-rad);
 }
 
 section#recentClass .desc-card-class{
@@ -186,10 +195,10 @@ section#recentClass .desc-card-class .tags{
   background-color: var(--teal);
   text-transform: uppercase;
   text-align: center;
-  border-radius: var(--btn-rad);
+  border-radius: var(--tags-rad);
   padding: 4px 0;
   color: var(--white);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: var(--medium);
 }
 
@@ -198,11 +207,13 @@ section#recentClass .desc-card-class hr{
   margin: 10px 0;
 }
 
-section#recentClass .desc-card-class p{
+section#recentClass .desc-card-class a{
   font-size: 14px;
   font-weight: var(--regular);
   line-height: var(--hero-p-lh);
   margin-bottom: 0;
+  text-decoration: none;
+  color: var(--black);
 }
 
 section#recentClass .desc-card-class ul li{
@@ -223,6 +234,27 @@ section#recentClass .desc-card-class ul li.disc-price{
 section#faq .container-faq{
   width: 980px;
   margin: auto;
+}
+
+section#faq .container-faq .accordion-item{
+  border: none;
+  margin: 12px 0;
+  background-color: var(--white);
+  border-radius: var(--btn-rad); 
+}
+
+section#faq .container-faq .accordion-item .accordion-button {
+  box-shadow: none;
+}
+
+section#faq .container-faq .accordion-item button{
+  border-radius: var(--btn-rad);
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  border-bottom: 0;
+
 }
 
 section#ctaBadge .cta-bg{
@@ -275,13 +307,9 @@ footer .desc-lagiNgoding img{
 }
 
 footer .desc-lagiNgoding p{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: var(--regular);
-  line-height: 27px;
-}
-
-footer .desc-lagiNgoding p span{
-  display: block;
+  line-height: 20px;
 }
 
 footer h4{
@@ -298,7 +326,7 @@ footer ul{
 footer a{
   text-decoration: none;
   color: var(--white);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: var(--regular);
   /* line-height: 27px; */
 }
@@ -333,6 +361,20 @@ footer ul.bottom-footer ul.socmed li{
   justify-content: center;
 }
 
-footer ul.bottom-footer ul.socmed li img{
-  width: 100%;
+footer ul.bottom-footer ul.socmed li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+footer ul.bottom-footer ul.socmed li a{
+  font-size: 16px;
+}
+
+footer ul.bottom-footer ul.socmed li a i{
+  color: var(--teal);
+}
+
+/* footer ul.bottom-footer ul.socmed li img{
+  width: 100%;
+} */

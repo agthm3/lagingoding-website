@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello, LagiNgoding!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css" integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/bootstrap-icons.svg" integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="/public/lagiNgoding/assets/images/Logo lagingoding-02.ico">
     <link rel="stylesheet" href="/public/lagiNgoding/assets/css/index.css">
+    <link rel="stylesheet" href="/public/lagiNgoding/assets/css/responsiveness.css">
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="/public/lagiNgoding/assets/images/lagingoding-logo.png" alt="LagiNgoding-logo" width="112">
@@ -45,7 +48,7 @@
     <section id="hero">
       <div class="container">
         <div class="hero-bg">
-          <ul>
+          <ul class="hero-content-list">
             <li class="hero-text">
               <h1 class="hero">Sudah siap belajar <span> Mobile Development?</span></h1>
               <p>LagiNgoding sedang buka pendaftaran BATCH 1 <span>Bootcamp Mobile Development.</span></p>
@@ -74,7 +77,7 @@
         <div class="card-recent-class">
           <ul>
 
-            <li>
+            <li style="margin-right: 12px;">
               <div class="container-card-class ">
     
                 <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
@@ -82,7 +85,7 @@
                 <div class="desc-card-class">
                   <div class="tags">Bootcamp</div>
                   <hr>
-                  <p>Lorem Ipsum is simply dummy text of printing</p>
+                  <a href="#">Lorem Ipsum is simply dummy text of printing</a>
                   <hr>
                   <div class="price">
                     <ul>
@@ -94,6 +97,7 @@
     
               </div>
             </li>
+
 
           </ul>
         </div>
@@ -107,46 +111,49 @@
           <h1>Frequently Asked Questions</h1>
         </div>
 
-        <div class="container-faq">
+        <div class="container-faq container-sm">
           <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="row">
 
               <div class="col-md-6">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
                     </div>
                   </div>
+
                 </div>
 
               </div>
@@ -155,10 +162,10 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                      Accordion Item #1
+                      Accordion Item #4
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                     <div class="accordion-body">
                       <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
@@ -166,7 +173,7 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
                       Accordion Item #2
                     </button>
                   </h2>
@@ -178,7 +185,7 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
                       Accordion Item #3
                     </button>
                   </h2>
@@ -222,14 +229,14 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-6 desc-lagiNgoding">
+          <div class="col-md-4 desc-lagiNgoding">
             <img src="/public/lagiNgoding/assets/images/lagingoding-logoWhite.png" alt="">
 
             <p>Lorem Ipsum is simply dummy text of  the printing and <span>typesetting industry. Lorem Ipsum has been the </span> <span>industry's standard dummy text ever since the 1500s.</span>
             </p>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h4>Top Classes</h4>
             
             <ul>
@@ -247,7 +254,7 @@
           </div>
 
 
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h4>Quick Links</h4>
 
             <ul>
@@ -262,6 +269,7 @@
               </li>
             </ul>
           </div>
+
         </div>
         
         <hr>
@@ -272,18 +280,21 @@
             <ul class="socmed">
               <li>
                 <a href="#">
-                  <img src="/public/lagiNgoding/assets/images/Instagram-Logo.png" alt="">
+                  <i class="bi bi-instagram"></i>
+                  <!-- <img src="/public/lagiNgoding/assets/images/Instagram-Logo.png" alt=""> -->
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/public/lagiNgoding/assets/images/LinkedIn-Logo.png" alt="">
+                  <i class="bi bi-linkedin"></i>
+                  <!-- <img src="/public/lagiNgoding/assets/images/LinkedIn-Logo.png" alt=""> -->
                 </a>
                 
               </li>
               <li>
                 <a href="#">
-                  <img src="/public/lagiNgoding/assets/images/WhatsApp-Logo.png" alt="">
+                  <i class="bi bi-whatsapp"></i>
+                  <!-- <img src="/public/lagiNgoding/assets/images/WhatsApp-Logo.png" alt=""> -->
                   
                 </a>
               </li>
