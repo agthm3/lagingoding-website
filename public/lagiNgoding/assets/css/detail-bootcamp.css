@@ -364,23 +364,29 @@ section#bootcampCard .container-bootcamp{
 
 section#bootcampCard .card-bootcamp{
   background-color: var(--white);
-  width: 360px;
-  padding: 18px 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   border-radius: var(--btn-rad);
 }
 
 section#bootcampCard .card-bootcamp > div{
-  margin: 6px 0;
-  padding: 0 8px;
-  width: 300px;
+  margin: 12px;
+}
+
+section#bootcampCard .card-bootcamp .img-card{
+  width: 280px;
+}
+
+section#bootcampCard .card-bootcamp .content-card{
+  width: 460px;
 }
 
 section#bootcampCard .card-bootcamp .bootcamp-img{
-  height: 280px;
-  margin-bottom: 12px;
+  height: 312px;
+  object-fit: cover;
 }
 
 section#bootcampCard .card-bootcamp .bootcamp-img img{
@@ -390,21 +396,26 @@ section#bootcampCard .card-bootcamp .bootcamp-img img{
   object-fit: cover;
 }
 
+section#bootcampCard .card-bootcamp .content-card > div{
+  margin: 12px 0 0;
+}
+
 section#bootcampCard .card-bootcamp .bootcamp-name{
-  font-size: 18px;
-  font-weight: var(--semi-bold);
-  text-align: center;
+  font-size: 24px;
+  font-weight: var(--bold);
+  text-align: left;
+  line-height: 28px;
 }
 
 section#bootcampCard .card-bootcamp .bootcamp-desc{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
-  text-align: center;
+  text-align: justify;
   color: var(--gray);
 }
 
 section#bootcampCard .card-bootcamp .bootcamp-price ul{
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 0;
 }
 
@@ -425,7 +436,7 @@ section#bootcampCard .card-bootcamp .bootcamp-price ul li.disc-price{
 
 section#bootcampCard .card-bootcamp .bootcamp-btn{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
@@ -435,5 +446,6 @@ section#bootcampCard .card-bootcamp .bootcamp-btn button{
   background-color: var(--teal);
   font-size: 16px;
   color: var(--white);
-  padding: 10px 28px;
+  padding: 8px 28px;
+  margin-top: 12px;
 }

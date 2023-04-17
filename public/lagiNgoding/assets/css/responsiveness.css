@@ -112,6 +112,18 @@
     font-size: 16px;
   }
 
+  section#bootcampCard .card-bootcamp .img-card {
+    width: 230px;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-img {
+    height: 264px;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-name {
+    font-size: 22px;
+  }
+
   footer .desc-lagiNgoding img {
     width: 52%;
     margin-bottom: 20px;
@@ -275,6 +287,35 @@
     font-size: 16px;
   }
 
+  section#bootcampCard .card-bootcamp .img-card {
+    width: 230px;
+  }
+
+  section#bootcampCard .card-bootcamp .img-card .bootcamp-img{
+    height: 280px;
+  }
+
+  section#bootcampCard .card-bootcamp .content-card {
+    width: 348px;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-name {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: var(--bold);
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-desc {
+    font-size: 14px;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-btn button {
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 6px 28px;
+    margin-top: 8px;
+  }
+
   footer {
     padding: 42px 0;
   }
@@ -299,6 +340,23 @@
   section#review .card-review .reviewer-text {
     font-size: 12px;
   }
+}
+
+@media screen and (max-width : 680px){
+
+  section#bootcampCard .card-bootcamp .img-card {
+    width: 216px;
+  }
+
+  section#bootcampCard .card-bootcamp .content-card {
+    width: 308px;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
 }
 
 @media screen and (max-width : 612px) {
@@ -344,6 +402,24 @@
     border-radius: var(--tags-rad);
   }
 
+  section#learn .accordion .accordion-item h2 button i.number {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  section#learn .accordion .accordion-item h2 button i.text {
+    font-size: 16px;
+  }
+
+  section#bootcampCard .card-bootcamp .img-card {
+    width: 196px;
+  }
+
+  section#bootcampCard .card-bootcamp .content-card {
+    width: 268px;
+  }
+
 }
 
 @media screen and (max-width : 586px) {
@@ -387,6 +463,45 @@
   section#review .card-review .reviewer-text {
     font-size: 12px;
   }
+
+  section#bootcampCard .card-bootcamp {
+    flex-direction: column;
+  }
+
+  section#bootcampCard .card-bootcamp {
+    width: 340px;
+  }
+
+  section#bootcampCard .card-bootcamp .img-card {
+    width: auto;
+  }
+
+  section#bootcampCard .card-bootcamp .img-card .bootcamp-img{
+    height: 326px;
+  }
+  section#bootcampCard .card-bootcamp .content-card {
+    width: 308px;
+    text-align: center;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-name {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-desc{
+    text-align: center;
+  }
+  
+  section#bootcampCard .card-bootcamp .bootcamp-price ul{
+    justify-content: center;
+  }
+
+  section#bootcampCard .card-bootcamp .bootcamp-btn{
+    justify-content: center;
+  }
+
 }
 
 @media screen and (max-width : 426px) {
