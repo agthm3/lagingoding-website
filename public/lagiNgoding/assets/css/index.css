@@ -154,13 +154,184 @@ section#recentClass .container-slider{
   background-color: #9B9696;
   display: flex;
   align-items: center;
-  width: 60vw;
+  /* width: 60vw; */
 }
 
 section#recentClass .slider-wrapper{
   padding: 20px 80px 40px;
   margin:0 6px;
 }
+
+section#recentClass  .recent-class-wrapper {
+  margin: auto;
+
+}
+
+section#recentClass  .recent-class-wrapper .manual-layout{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg{
+  margin: 12px;
+  background-color: var(--white);
+  width: 206px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 18px;
+  border-radius: var(--tags-rad);
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-img{
+  width: 100%;
+  height: 258px;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--tags-rad);
+}
+
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content .tags{
+  position: relative;
+  top: -36px;
+  left: 10px;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content .tags button{
+  background-color: var(--teal);
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--tags-rad);
+  padding: 4px 12px;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: var(--medium);
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content .name {
+  position: relative;
+  top: -14px;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content .name button{
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  line-height: var(--hero-p-lh);
+  margin-bottom: 0;
+  color: var(--black);
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  border: none;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content .remove-margin{
+  margin-top: -20px;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content ul li{
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content ul li.normal-price{
+  color: var(--gray);
+  text-decoration-line: line-through;
+  margin-right: 12px;
+}
+
+section#recentClass  .recent-class-wrapper .card-new-dg .card-content ul li.disc-price{
+  color: var(--teal);
+}
+
+/* SLIDER CARD RECENT CLASS */
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg{
+  margin: 12px;
+  background-color: var(--white);
+  width: 206px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 18px;
+  border-radius: var(--tags-rad);
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-img{
+  width: 100%;
+  height: 258px;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--tags-rad);
+}
+
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content .tags{
+  position: relative;
+  top: -36px;
+  left: 10px;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content .tags button{
+  background-color: var(--teal);
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--tags-rad);
+  padding: 4px 12px;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: var(--medium);
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content .name {
+  position: relative;
+  top: -14px;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content .name button{
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  line-height: var(--hero-p-lh);
+  margin-bottom: 0;
+  color: var(--black);
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  border: none;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content .remove-margin{
+  margin-top: -20px;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content ul li{
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content ul li.normal-price{
+  color: var(--gray);
+  text-decoration-line: line-through;
+  margin-right: 12px;
+}
+
+section#recentClass  .slider-wrapper .card-wrapper .card-new-dg .card-content ul li.disc-price{
+  color: var(--teal);
+}
+
 
 section#recentClass .slider-wrapper ul{
   margin-bottom: 0;
@@ -171,25 +342,14 @@ section#recentClass .slider-wrapper ul.card-list li{
 }
 
 section#recentClass .slider-wrapper .card-recent-class{
-  /* background: url(../images/example-card-image.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
   width: 256px;
   height: 376px;
-  /* width: 264px;
-  height: 364px; */
-  /* padding: 10px 0; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
   border-radius: var(--hero-rad);
 }
 
 section#recentClass .slider-wrapper .card-recent-class img{
   width: 256px;
   height: 376px;
-  /* height: 376px;
-  background: aqua; */
   object-fit: cover;
   border-radius: var(--hero-rad);
 }
