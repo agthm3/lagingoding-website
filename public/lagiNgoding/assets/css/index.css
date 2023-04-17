@@ -319,7 +319,7 @@ footer{
 }
 
 footer .desc-lagiNgoding img{
-  width: 30%;
+  width: 164px;
   margin-bottom: 20px;
 }
 
@@ -362,9 +362,15 @@ footer ul.bottom-footer{
   margin-bottom: 0;
 }
 
+footer ul.bottom-footer li.copyright{
+  margin: auto 0;
+}
+
 footer ul.bottom-footer ul.socmed{
   flex-direction: row;
 }
+
+
 
 footer ul.bottom-footer ul.socmed li{
   margin: 0 18px;
