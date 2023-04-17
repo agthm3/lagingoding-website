@@ -20,21 +20,20 @@ section#heroDetailBootcamp .hero-bg ul{
 }
 
 section#heroDetailBootcamp .hero-bg .hero-text{
-  padding: 0 36px 36px 12px;
-  width: 74%;
+  padding: 0 12px;
 }
 
 section#heroDetailBootcamp .hero-bg .hero-img{
-  width: 24%;
+  width: 100%;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text .title h4, .title h4{
+section#heroDetailBootcamp .hero-bg .hero-text .title h4{
   font-size: 18px;
   font-weight: var(--bold);
   color: var(--teal);
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text .title h1, .title h1{
+section#heroDetailBootcamp .hero-bg .hero-text .title h1{
   margin-top: -6px;
   font-size: 26px;
   font-weight: var(--bold);
@@ -110,7 +109,7 @@ section#descBootcamp .container-desc .info-bootcamp ul.info-list li{
   display: flex;
   flex-direction: column;
   padding: 8px 14px;
-  margin: 0 6px 6px;
+  margin: 6px 0;
 }
 
 section#descBootcamp .container-desc .info-bootcamp ul.info-list li .info-title{
@@ -141,11 +140,17 @@ section#tools .container-tools li .card-tools{
 section#tools .container-tools li .card-tools .card-img img{
   width: 100%;
   height: 96px;
-  object-fit: fill;
+  object-fit: contain;
+  padding: 6px;
 }
 
 section#tools .container-tools ul.tools-list li .card-tools ul{
   justify-content: center;
+  flex-direction: column;
+}
+
+section#tools .container-tools ul.tools-list li .card-tools ul > li{
+  margin: 6px 0 0;
 }
 
 section#tools .container-tools ul.tools-list li .card-tools .card-desc {
@@ -156,11 +161,16 @@ section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-de
   font-size: 20px;
   font-weight: var(--semi-bold);
   padding: 0 4px;
+  text-align: center;
 }
 
 section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li button{
   border: none;
   background-color: transparent;
+  display: flex;
+  height: 22px;
+  justify-content: center;
+  align-items: center;
 }
 
 section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li i{
@@ -187,6 +197,30 @@ section#learn .title h1{
   line-height: 40px;
 }
 
+section#learn .accordion .accordion-item{
+  margin: 16px 0 0;
+  border: none;
+  background-color: var(--white);
+  border-radius: var(--btn-rad); 
+}
+
+section#learn .accordion .accordion-item .accordion-button{
+  box-shadow: none;
+}
+
+section#learn .accordion .accordion-item button{
+  border-radius: var(--btn-rad);
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  border-bottom: 0;
+}
+
+section#learn .accordion .accordion-item h2 button:focus{
+  outline: none;
+}
+
 section#learn .accordion .accordion-item h2 button i.number{
   display: flex;
   align-items: center;
@@ -196,13 +230,14 @@ section#learn .accordion .accordion-item h2 button i.number{
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--semi-bold);
   margin-right: 12px;
 }
 
+
 section#learn .accordion .accordion-item h2 button i.text{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--semi-bold);
   font-style: normal;
   display: flex;
@@ -231,11 +266,24 @@ section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.
   margin-left: 12px;
 }
 
-section#review .container-review .review-wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+section#review .container-review .snaps-inline{
+  scroll-snap-type: inline mandatory;
+
 }
+
+section#review .container-review .review-wrapper{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  display: grid;
+  grid-auto-flow: column;
+  gap: 12px;
+  overflow-x: scroll;
+  padding: 0 0 6px;
+  overscroll-behavior-inline: contain;
+  /* overflow-x: auto; */
+}
+
 
 section#review .card-review{
   background-color: var(--white);

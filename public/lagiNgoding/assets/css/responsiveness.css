@@ -14,6 +14,20 @@
     font-size: 32px;
   }
 
+  section#heroDetailBootcamp .title h4{
+    font-size: 14px;
+  }
+  
+  section#heroDetailBootcamp .title h1{
+    font-size: 20px;
+    padding-right: 18px;
+  }
+
+  section#heroDetailBootcamp .hero-bg .hero-text p{
+    padding-right: 18px;
+    font-size: 14px;
+  }
+
   section#hero .hero-bg ul li.hero-text{
     padding: 16px 0;
   }
@@ -199,8 +213,91 @@
     padding: 8px 16px;
   }
 
+  section#heroDetailBootcamp .title h4{
+    text-align: center;
+    margin-top: 18px;
+  }
+  
+  section#heroDetailBootcamp .title h1{
+    padding-right: 0;
+    text-align: center;
+  }
+
+  section#heroDetailBootcamp .hero-bg .hero-text p{
+    padding-right: 0;
+    text-align: center;
+  }
+
+  section#descBootcamp .container-desc img {
+    height: 298px;
+  }
+  
+  section#descBootcamp .container-desc .text-wrapper p {
+    font-size: 14px;
+  }
+
+  section#descBootcamp .container-desc .info-bootcamp ul.info-list li {
+    width: 48%;
+    margin: 6px 0;
+  }
+
+  section#descBootcamp .container-desc .info-bootcamp ul.info-list li .info-title {
+    font-size: 14px;
+  }
+
+  section#descBootcamp .container-desc .info-bootcamp ul.info-list li .desc {
+    font-size: 14px;
+  }
+
+  section#learn .title{
+    width: 100%;
+    text-align: center;
+  }
+
+  section#tools .container-tools li .card-tools {
+    width: 152px;
+    padding: 12px 0;
+  }
+
+  section#tools .container-tools li .card-tools .card-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  section#tools .container-tools li .card-tools .card-img img {
+    width: 52%;
+    height: 76px;
+    object-fit: fill;
+    padding: 6px;
+  }
+
+  section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li {
+    font-size: 16px;
+  }
+
   footer {
     padding: 42px 0;
+  }
+}
+
+@media screen and (max-width : 716px){
+
+  section#review .card-review {
+    width: 196px;
+    padding: 12px;
+  }
+
+  section#review .card-review .reviewer-name {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+
+  section#review .card-review .reviewer-star ul li img {
+    width: 20px;
+  }
+
+  section#review .card-review .reviewer-text {
+    font-size: 12px;
   }
 }
 
@@ -254,6 +351,42 @@
     font-size: 14px;
   }
 
+  section#heroDetailBootcamp .hero-bg .hero-img img {
+    width: 202px;
+    height: 276px;
+}
+
+  section#heroDetailBootcamp .hero-bg .hero-text .title h4{
+    text-align: center;
+  }
+  
+  section#heroDetailBootcamp .hero-bg .hero-text .title h1{
+    font-size: 18px;
+  }
+
+  section#heroDetailBootcamp .hero-bg .hero-text p{
+    font-size: 14px;
+  }
+
+  section#descBootcamp .container-desc .info-bootcamp ul.info-list li {
+    width: 100%;
+  }
+
+  section#review .card-review .reviewer-name {
+    font-size: 18px;
+  }
+
+  section#review .card-review .reviewer-star ul{
+    margin-bottom: 14px;
+  }
+
+  section#review .card-review .reviewer-star ul li img {
+    width: 22px;
+  }
+
+  section#review .card-review .reviewer-text {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width : 426px) {
