@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsiveness.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootcamp.css') }}">
 
     <!-- swiper CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">

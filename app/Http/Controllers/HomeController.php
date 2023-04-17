@@ -2,19 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Bootcamp;
+use App\Models\Home;
 use Illuminate\Http\Request;
 
-class BootcampController extends Controller
+class HomeController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-          //Logic untuk mengaktifkan warna di navbar
-        session(['active_button' => 'bootcamp']);
-        return view('pages.bootcamp.index');
+        //Logic untuk mengaktifkan warna di navbar
+        session(['active_button' => 'home']);
+        return view('pages.home.index');
     }
 
     /**
@@ -36,7 +36,7 @@ class BootcampController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Bootcamp $bootcamp)
+    public function show(Home $home)
     {
         //
     }
@@ -44,7 +44,7 @@ class BootcampController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Bootcamp $bootcamp)
+    public function edit(Home $home)
     {
         //
     }
@@ -52,7 +52,7 @@ class BootcampController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Bootcamp $bootcamp)
+    public function update(Request $request, Home $home)
     {
         //
     }
@@ -60,7 +60,7 @@ class BootcampController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Bootcamp $bootcamp)
+    public function destroy(Home $home)
     {
         //
     }

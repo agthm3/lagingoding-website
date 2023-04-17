@@ -10,10 +10,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav navbar-nav-link">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/public/lagiNgoding/index.html">Home</a>
+                      <a class="nav-link {{ session('active_button') == 'home' ? 'active' : '' }}" aria-current="page"
+                          href="{{ route('home.index') }}">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/public/lagiNgoding/views/bootcamp.html">Bootcamp</a>
+                      <a class="nav-link {{ session('active_button') == 'bootcamp' ? 'active' : '' }}"
+                          href="{{ route('bootcamp.index') }}">Bootcamp</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Kelas</a>
