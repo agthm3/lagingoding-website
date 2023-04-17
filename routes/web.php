@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BootcampController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+   return view('pages.home.index');
 });
+
+//Pages Bootcamp
+Route::get('/bootcamp', [BootcampController::class, 'index'])->name('bootcamp.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

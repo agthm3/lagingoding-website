@@ -1,0 +1,49 @@
+/* section#login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: brown;
+}
+
+section#login .login-form{
+  background-color: aqua;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+} */
+
+section#login{
+  height: 100vh;
+  margin: 0;
+  background-color: var(--teal);
+}
+
+section#login .checkbox input{
+  margin-right: 12px;
+}
+
+section#login .btn-login{
+  background-color: var(--teal);
+  padding: 8px 30px;
+  border: none;
+  border-radius: var(--btn-rad);
+  color: var(--white);
+}
+
+section#login .form-input input.form-control{
+  font-size: 16px;
+}
+
+section#login .sign-up{
+  margin-top: 24px;
+}
+
+section#login .sign-up h4{
+  font-size: 16px;
+}
+
+section#login .sign-up h4 a{
+  text-decoration: none;
+  color: var(--teal);
+}
