@@ -362,6 +362,12 @@ section#bootcampCard .container-bootcamp{
   align-items: center;
 }
 
+section#bootcampCard .container-bootcamp .bootcamp-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 section#bootcampCard .card-bootcamp{
   background-color: var(--white);
   width: 100%;
