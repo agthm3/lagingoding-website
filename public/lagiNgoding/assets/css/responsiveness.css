@@ -463,13 +463,9 @@
   section#review .card-review .reviewer-text {
     font-size: 12px;
   }
-
   section#bootcampCard .card-bootcamp {
     flex-direction: column;
-  }
-
-  section#bootcampCard .card-bootcamp {
-    width: 340px;
+    width: 100%;
   }
 
   section#bootcampCard .card-bootcamp .img-card {
@@ -480,7 +476,7 @@
     height: 326px;
   }
   section#bootcampCard .card-bootcamp .content-card {
-    width: 308px;
+    width: 94%;
     text-align: center;
   }
 
@@ -504,9 +500,43 @@
 
 }
 
+@media screen and (max-width : 460px){
+  /* footer ul.bottom-footer ul.socmed li a {
+    font-size: 14px;
+  }
+
+  footer ul.bottom-footer ul.socmed li {
+      width: 26px;
+      height: 26px;
+      padding: 3px;
+  } */
+
+  footer ul.bottom-footer{
+    justify-content: normal;
+    flex-direction: column;
+  }
+  
+  footer ul.bottom-footer ul.socmed li {
+    margin: 12px 6px 0;
+  }
+}
+
 @media screen and (max-width : 426px) {
   section#ctaBadge .cta-bg img {
     width: 60%;
     margin-bottom: 0;
+  }
+
+  section#learn .accordion .accordion-item h2 button i.number {
+    width: 24px;
+    height: 24px;
+  }
+
+  section#learn .accordion .accordion-item h2 button i.text {
+    font-size: 14px;
+  }
+
+  section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li {
+    font-size: 14px;
   }
 }
