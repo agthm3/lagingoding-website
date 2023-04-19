@@ -38,7 +38,7 @@ class BootcampController extends Controller
      */
     public function show(Bootcamp $bootcamp)
     {
-        //
+        return view('pages.bootcamp.show');
     }
 
     /**

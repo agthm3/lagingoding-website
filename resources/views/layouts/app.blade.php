@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsiveness.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootcamp.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/detail-bootcamp.css') }}" />
 
     <!-- swiper CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
@@ -36,7 +37,7 @@
     @include('components.footer')
 
     <!-- swiper JS -->
-    <script src="/public/lagiNgoding/assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
 
     <script>
         const swiper = new Swiper(".slide-content", {

@@ -1,451 +1,520 @@
-body{
-  background-color: var(--white-bg);
+body {
+    background-color: var(--white-bg);
 }
 
-nav{
-  background-color: var(--white);
+nav {
+    background-color: var(--white);
 }
 
-section#heroDetailBootcamp .title{
-  text-align: left;
-  padding: 0;
+section#heroDetailBootcamp .title {
+    text-align: left;
+    padding: 0;
 }
 
-section#heroDetailBootcamp .hero-bg{
-  width: 100%;
+section#heroDetailBootcamp .hero-bg {
+    width: 100%;
 }
 
-section#heroDetailBootcamp .hero-bg ul{
-  justify-content: space-between;
+section#heroDetailBootcamp .hero-bg ul {
+    justify-content: space-between;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text{
-  padding: 0 12px;
+section#heroDetailBootcamp .hero-bg .hero-text {
+    padding: 0 12px;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-img{
-  width: 100%;
+section#heroDetailBootcamp .hero-bg .hero-img {
+    width: 100%;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text .title h4{
-  font-size: 18px;
-  font-weight: var(--bold);
-  color: var(--teal);
+section#heroDetailBootcamp .hero-bg .hero-text .title h4 {
+    font-size: 18px;
+    font-weight: var(--bold);
+    color: var(--teal);
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text .title h1{
-  margin-top: -6px;
-  font-size: 26px;
-  font-weight: var(--bold);
-  color: var(--black);
+section#heroDetailBootcamp .hero-bg .hero-text .title h1 {
+    margin-top: -6px;
+    font-size: 26px;
+    font-weight: var(--bold);
+    color: var(--black);
 }
 
-section#heroDetailBootcamp .hero-bg .hero-text p{
-  padding-right: 80px;
-  text-align: justify;
-  font-size: 16px;
+section#heroDetailBootcamp .hero-bg .hero-text p {
+    padding-right: 80px;
+    text-align: justify;
+    font-size: 16px;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-img{
-  display: flex;
-  justify-content: center;
-  padding: 6px 0;
+section#heroDetailBootcamp .hero-bg .hero-img {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
 }
 
-section#heroDetailBootcamp .hero-bg .hero-img img{
-  width: 252px;
-  height: 336px;
-  object-fit: cover;
-  border-radius: var(--btn-rad);
+section#heroDetailBootcamp .hero-bg .hero-img img {
+    width: 252px;
+    height: 336px;
+    object-fit: cover;
+    border-radius: var(--btn-rad);
 }
 
-section#descBootcamp .container-desc{
-  /* max-width: 1140px; */
-  padding: 12px 18px;
+section#descBootcamp .container-desc {
+    /* max-width: 1140px; */
+    padding: 12px 18px;
 }
 
 section#descBootcamp .container .title {
-  text-align: center;
+    text-align: center;
 }
 
-section#descBootcamp .container .title h1{
-  margin-top: -6px;
-  font-size: 26px;
-  font-weight: var(--bold);
-  color: var(--black);
+section#descBootcamp .container .title h1 {
+    margin-top: -6px;
+    font-size: 26px;
+    font-weight: var(--bold);
+    color: var(--black);
 }
 
-section#descBootcamp .container-desc img{
-  width: 100%;
-  height: 380px;
-  object-fit: cover;
-  border-radius: var(--btn-rad);
+section#descBootcamp .container-desc img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: var(--btn-rad);
 }
 
 section#descBootcamp .container-desc .text-wrapper {
-  padding-top: 16px;
+    padding-top: 16px;
 }
 
-section#descBootcamp .container-desc .text-wrapper p{
-  text-align: justify;
-  margin: 8px 0;
+section#descBootcamp .container-desc .text-wrapper p {
+    text-align: justify;
+    margin: 8px 0;
 }
 
-section#descBootcamp .container-desc .info-bootcamp{
-  margin-top: 24px;
+section#descBootcamp .container-desc .info-bootcamp {
+    margin-top: 24px;
 }
 
-section#descBootcamp .container-desc .info-bootcamp ul.info-list{
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* gap: 10px 20px */
+section#descBootcamp .container-desc .info-bootcamp ul.info-list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 10px 20px */
 }
 
-section#descBootcamp .container-desc .info-bootcamp ul.info-list li{
-  /* flex-grow: 2; */
-  background-color: var(--white);
-  width: 48%;
-  border-radius: var(--btn-rad);
-  display: flex;
-  flex-direction: column;
-  padding: 8px 14px;
-  margin: 6px 0;
+section#descBootcamp .container-desc .info-bootcamp ul.info-list li {
+    /* flex-grow: 2; */
+    background-color: var(--white);
+    width: 48%;
+    border-radius: var(--btn-rad);
+    display: flex;
+    flex-direction: column;
+    padding: 8px 14px;
+    margin: 6px 0;
 }
 
-section#descBootcamp .container-desc .info-bootcamp ul.info-list li .info-title{
-  font-weight: var(--semi-bold);
-  margin-bottom: 6px;
+section#descBootcamp
+    .container-desc
+    .info-bootcamp
+    ul.info-list
+    li
+    .info-title {
+    font-weight: var(--semi-bold);
+    margin-bottom: 6px;
 }
 
-section#tools .title{
-  text-align: center;
+section#tools .title {
+    text-align: center;
 }
 
-section#tools .container-tools ul.tools-list{
-  justify-content: center;
-  flex-wrap: wrap;
+section#tools .container-tools ul.tools-list {
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 section#tools .container-tools li {
-  padding: 10px;
+    padding: 10px;
 }
 
-section#tools .container-tools li .card-tools{
-  background-color: var(--white);
-  border-radius: var(--btn-rad);
-  width: 180px;
-  padding: 20px 0;
+section#tools .container-tools li .card-tools {
+    background-color: var(--white);
+    border-radius: var(--btn-rad);
+    width: 180px;
+    padding: 20px 0;
 }
 
-section#tools .container-tools li .card-tools .card-img img{
-  width: 100%;
-  height: 96px;
-  object-fit: contain;
-  padding: 6px;
+section#tools .container-tools li .card-tools .card-img img {
+    width: 100%;
+    height: 96px;
+    object-fit: contain;
+    padding: 6px;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools ul{
-  justify-content: center;
-  flex-direction: column;
+section#tools .container-tools ul.tools-list li .card-tools ul {
+    justify-content: center;
+    flex-direction: column;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools ul > li{
-  margin: 6px 0 0;
+section#tools .container-tools ul.tools-list li .card-tools ul > li {
+    margin: 6px 0 0;
 }
 
 section#tools .container-tools ul.tools-list li .card-tools .card-desc {
-  padding: 0 8px;
+    padding: 0 8px;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li{
-  font-size: 20px;
-  font-weight: var(--semi-bold);
-  padding: 0 4px;
-  text-align: center;
+section#tools
+    .container-tools
+    ul.tools-list
+    li
+    .card-tools
+    .card-desc
+    .title-desc
+    ul
+    li {
+    font-size: 20px;
+    font-weight: var(--semi-bold);
+    padding: 0 4px;
+    text-align: center;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li button{
-  border: none;
-  background-color: transparent;
-  display: flex;
-  height: 22px;
-  justify-content: center;
-  align-items: center;
+section#tools
+    .container-tools
+    ul.tools-list
+    li
+    .card-tools
+    .card-desc
+    .title-desc
+    ul
+    li
+    button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li i{
-  font-size: 12px;
+section#tools
+    .container-tools
+    ul.tools-list
+    li
+    .card-tools
+    .card-desc
+    .title-desc
+    ul
+    li
+    i {
+    font-size: 12px;
 }
 
-section#tools .container-tools ul.tools-list li .card-tools .card-desc .desc{
-  text-align: center;
-  font-size: 12px;
-  color: var(--gray);
+section#tools .container-tools ul.tools-list li .card-tools .card-desc .desc {
+    text-align: center;
+    font-size: 12px;
+    color: var(--gray);
 }
 
-section#learn .learn-wrapper{
-  align-items: center;
-  padding: 40px 0;
+section#learn .learn-wrapper {
+    align-items: center;
+    padding: 40px 0;
 }
 
-section#learn .title{
-  text-align: left;
-  width: 260px;
+section#learn .title {
+    text-align: left;
+    width: 260px;
 }
 
-section#learn .title h1{
-  line-height: 40px;
+section#learn .title h1 {
+    line-height: 40px;
 }
 
-section#learn .accordion .accordion-item{
-  margin: 16px 0 0;
-  border: none;
-  background-color: var(--white);
-  border-radius: var(--btn-rad); 
+section#learn .accordion .accordion-item {
+    margin: 16px 0 0;
+    border: none;
+    background-color: var(--white);
+    border-radius: var(--btn-rad);
 }
 
-section#learn .accordion .accordion-item .accordion-button{
-  box-shadow: none;
+section#learn .accordion .accordion-item .accordion-button {
+    box-shadow: none;
 }
 
-section#learn .accordion .accordion-item button{
-  border-radius: var(--btn-rad);
-  background-color: var(--white);
-  color: var(--black);
-  font-size: 14px;
-  font-weight: var(--semi-bold);
-  border-bottom: 0;
+section#learn .accordion .accordion-item button {
+    border-radius: var(--btn-rad);
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: var(--semi-bold);
+    border-bottom: 0;
 }
 
-section#learn .accordion .accordion-item h2 button:focus{
-  outline: none;
+section#learn .accordion .accordion-item h2 button:focus {
+    outline: none;
 }
 
-section#learn .accordion .accordion-item h2 button i.number{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--teal);
-  color: var(--white);
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  font-size: 18px;
-  font-weight: var(--semi-bold);
-  margin-right: 12px;
+section#learn .accordion .accordion-item h2 button i.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--teal);
+    color: var(--white);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: var(--semi-bold);
+    margin-right: 12px;
 }
 
-
-section#learn .accordion .accordion-item h2 button i.text{
-  font-size: 18px;
-  font-weight: var(--semi-bold);
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+section#learn .accordion .accordion-item h2 button i.text {
+    font-size: 18px;
+    font-weight: var(--semi-bold);
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail{
-  flex-direction: column;
-  align-items: flex-start;
+section#learn
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul.list-detail {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li{
-  margin-left: 6px;
+section#learn
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul.list-detail
+    li {
+    margin-left: 6px;
 }
 
-section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul {
-  margin-bottom:12px;
+section#learn
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul.list-detail
+    li
+    ul {
+    margin-bottom: 12px;
 }
 
-section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul li i{
-  color: var(--gray);
+section#learn
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul.list-detail
+    li
+    ul
+    li
+    i {
+    color: var(--gray);
 }
 
-section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul li.text{
-  margin-left: 12px;
+section#learn
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul.list-detail
+    li
+    ul
+    li.text {
+    margin-left: 12px;
 }
 
-section#review .container-review .snaps-inline{
-  scroll-snap-type: inline mandatory;
-
+section#review .container-review .snaps-inline {
+    scroll-snap-type: inline mandatory;
 }
 
-section#review .container-review .review-wrapper{
-  /* display: flex;
+section#review .container-review .review-wrapper {
+    /* display: flex;
   flex-wrap: wrap;
   justify-content: center; */
-  display: grid;
-  grid-auto-flow: column;
-  gap: 12px;
-  overflow-x: scroll;
-  padding: 0 0 6px;
-  overscroll-behavior-inline: contain;
-  /* overflow-x: auto; */
+    display: grid;
+    grid-auto-flow: column;
+    gap: 12px;
+    overflow-x: scroll;
+    padding: 0 0 6px;
+    overscroll-behavior-inline: contain;
+    /* overflow-x: auto; */
 }
 
-
-section#review .card-review{
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 300px;
-  padding: 18px;
-  border-radius: var(--btn-rad);
-  margin: 12px;
+section#review .card-review {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    padding: 18px;
+    border-radius: var(--btn-rad);
+    margin: 12px;
 }
 
 section#review .card-review .reviewer-name {
-  font-size: 20px;
-  font-weight: var(--semi-bold);
-  margin-bottom: 14px
+    font-size: 20px;
+    font-weight: var(--semi-bold);
+    margin-bottom: 14px;
 }
 
 section#review .card-review .reviewer-star ul li {
-  padding-right: 4px;
+    padding-right: 4px;
 }
 
-section#review .card-review .reviewer-star ul li img{
-  width: 24px;
+section#review .card-review .reviewer-star ul li img {
+    width: 24px;
 }
 
-section#review .card-review .reviewer-text{
-  font-size: 14px;
-  text-align: justify;
+section#review .card-review .reviewer-text {
+    font-size: 14px;
+    text-align: justify;
 }
 
-section#mentor .card-mentor{
-  background-color: var(--white);
-  padding: 24px 0;
-  width: 340px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: var(--btn-rad);
+section#mentor .card-mentor {
+    background-color: var(--white);
+    padding: 24px 0;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--btn-rad);
 }
 
-section#mentor .mentor-wrapper{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+section#mentor .mentor-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-section#mentor .card-mentor > div{
-  margin: 8px 0;
+section#mentor .card-mentor > div {
+    margin: 8px 0;
 }
 
-section#mentor .card-mentor .mentor-image{
-  width: 140px;
-  background-color: var(--teal);
-  border-radius: 50%;
+section#mentor .card-mentor .mentor-image {
+    width: 140px;
+    background-color: var(--teal);
+    border-radius: 50%;
 }
 
-section#mentor .card-mentor .mentor-image img{
-  width: 100%;
-  border-radius: 50%;
+section#mentor .card-mentor .mentor-image img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 section#mentor .card-mentor .mentor-name {
-  font-size: 20px;
-  font-weight: var(--semi-bold);
+    font-size: 20px;
+    font-weight: var(--semi-bold);
 }
 
-section#mentor .card-mentor .mentor-job{
-  font-size: 16px;
-  color: var(--gray);
+section#mentor .card-mentor .mentor-job {
+    font-size: 16px;
+    color: var(--gray);
 }
 
-section#bootcampCard .container-bootcamp{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+section#bootcampCard .container-bootcamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section#bootcampCard .card-bootcamp{
-  background-color: var(--white);
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: var(--btn-rad);
+section#bootcampCard .container-bootcamp .bootcamp-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section#bootcampCard .card-bootcamp > div{
-  margin: 12px;
+section#bootcampCard .card-bootcamp {
+    background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--btn-rad);
 }
 
-section#bootcampCard .card-bootcamp .img-card{
-  width: 280px;
+section#bootcampCard .card-bootcamp > div {
+    margin: 12px;
 }
 
-section#bootcampCard .card-bootcamp .content-card{
-  width: 460px;
+section#bootcampCard .card-bootcamp .img-card {
+    width: 280px;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-img{
-  height: 312px;
-  object-fit: cover;
+section#bootcampCard .card-bootcamp .content-card {
+    width: 460px;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-img img{
-  width: 100%;
-  height: 100%;
-  border-radius: var(--btn-rad);
-  object-fit: cover;
+section#bootcampCard .card-bootcamp .bootcamp-img {
+    height: 312px;
+    object-fit: cover;
 }
 
-section#bootcampCard .card-bootcamp .content-card > div{
-  margin: 12px 0 0;
+section#bootcampCard .card-bootcamp .bootcamp-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--btn-rad);
+    object-fit: cover;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-name{
-  font-size: 24px;
-  font-weight: var(--bold);
-  text-align: left;
-  line-height: 28px;
+section#bootcampCard .card-bootcamp .content-card > div {
+    margin: 12px 0 0;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-desc{
-  font-size: 16px;
-  line-height: 20px;
-  text-align: justify;
-  color: var(--gray);
+section#bootcampCard .card-bootcamp .bootcamp-name {
+    font-size: 24px;
+    font-weight: var(--bold);
+    text-align: left;
+    line-height: 28px;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-price ul{
-  justify-content: flex-start;
-  margin-bottom: 0;
+section#bootcampCard .card-bootcamp .bootcamp-desc {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: var(--gray);
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-price ul li{
-  margin-right: 10px;
-  font-size: 16px;
-  font-weight: var(--semi-bold);
+section#bootcampCard .card-bootcamp .bootcamp-price ul {
+    justify-content: flex-start;
+    margin-bottom: 0;
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-price ul li.normal-price{
-  text-decoration: line-through;
-  color: var(--gray);
+section#bootcampCard .card-bootcamp .bootcamp-price ul li {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: var(--semi-bold);
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-price ul li.disc-price{
-  color: var(--teal);
+section#bootcampCard .card-bootcamp .bootcamp-price ul li.normal-price {
+    text-decoration: line-through;
+    color: var(--gray);
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-btn{
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 20px;
+section#bootcampCard .card-bootcamp .bootcamp-price ul li.disc-price {
+    color: var(--teal);
 }
 
-section#bootcampCard .card-bootcamp .bootcamp-btn button{
-  border: none;
-  border-radius: var(--btn-rad);
-  background-color: var(--teal);
-  font-size: 16px;
-  color: var(--white);
-  padding: 8px 28px;
-  margin-top: 12px;
+section#bootcampCard .card-bootcamp .bootcamp-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-btn button {
+    border: none;
+    border-radius: var(--btn-rad);
+    background-color: var(--teal);
+    font-size: 16px;
+    color: var(--white);
+    padding: 8px 28px;
+    margin-top: 12px;
 }

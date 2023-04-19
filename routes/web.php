@@ -24,10 +24,11 @@ Route::get('/', [HomeController::class, 'index'] )->name('home.index');
 
 //Pages Bootcamp
 Route::get('/bootcamp', [BootcampController::class, 'index'])->name('bootcamp.index');
+Route::get('/boocamp/detail', [BootcampController::class, 'show'])->name('bootcamp.show');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

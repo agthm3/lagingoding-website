@@ -28,7 +28,15 @@
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                     <div class="card shadow-2-strong" style="border-radius: 1rem;">
                         <div class="card-body p-5 text-center">
-
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
                             <h3 class="mb-5">Login</h3>
 
                             <form action="{{ route('login') }}" method="post">

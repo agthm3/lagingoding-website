@@ -10,7 +10,9 @@
                         <p>LagiNgoding sedang buka pendaftaran BATCH 1 <span>Bootcamp Mobile Development.</span></p>
 
                         <div class="btn-hero">
-                            <button type="button">Ayo Daftar</button>
+                            <button type="button"><a href="{{ route('bootcamp.index') }}"
+                                    class="text-decoration-none text-success">Ayo
+                                    Daftar</a></button>
                         </div>
                     </li>
 
@@ -65,113 +67,113 @@
 
             <!-- EXAMPLE CARD BUT STILL BROKEN -->
             <!-- <div class="container-slider">
-                                                      
-                                                      <div class="slider-wrapper">
+                                                                                  
+                                                                                  <div class="slider-wrapper">
 
-                                                        <!-- <div class="slide-content">
-                                                          <div class="card-wrapper swiper-wrapper">
-                                                
-                                                            <div class="swiper-slide">
-                                                              <div class="card-new-dg">
-                                                                <div class="card-img">
-                                                                  <img src="/public/lagiNgoding/assets/images/example2.png" alt="">
-                                                                </div>
-                                                  
-                                                                <div class="card-content">
-                                                                  <div class="tags">
-                                                                    <button type="button">Bootcamp</button>
-                                                                  </div>
-                                                                  <div class="name">
-                                                                    <button type="button">Lorem Ipdsjfnsjd  dnfkjsdn sum is simply dummy text of printing</button>
-                                                                  </div>
-                                                                  <div class="remove-margin">
-                                                                    <hr>
-                                                                  </div>
-                                                                  <div class="price">
-                                                                    <ul class="price-wrap">
-                                                                      <li class="normal-price">Rp 240,000</li>
-                                                                      <li class="disc-price">Rp 100,000</li>
-                                                                    </ul>
-                                                                  </div>
-                                                                </div>
-                                                              </div>
-                                                            </div>
+                                                                                    <!-- <div class="slide-content">
+                                                                                      <div class="card-wrapper swiper-wrapper">
+                                                                            
+                                                                                        <div class="swiper-slide">
+                                                                                          <div class="card-new-dg">
+                                                                                            <div class="card-img">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example2.png" alt="">
+                                                                                            </div>
+                                                                              
+                                                                                            <div class="card-content">
+                                                                                              <div class="tags">
+                                                                                                <button type="button">Bootcamp</button>
+                                                                                              </div>
+                                                                                              <div class="name">
+                                                                                                <button type="button">Lorem Ipdsjfnsjd  dnfkjsdn sum is simply dummy text of printing</button>
+                                                                                              </div>
+                                                                                              <div class="remove-margin">
+                                                                                                <hr>
+                                                                                              </div>
+                                                                                              <div class="price">
+                                                                                                <ul class="price-wrap">
+                                                                                                  <li class="normal-price">Rp 240,000</li>
+                                                                                                  <li class="disc-price">Rp 100,000</li>
+                                                                                                </ul>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                        </div>
 
 
-                                                          </div>
+                                                                                      </div>
 
-                                                          
-                                                          <div class="swiper-button-next"></div>
-                                                          <div class="swiper-button-prev"></div>
-                                                          <div class="swiper-pagination"></div>
-                                              
-                                                        </div> -->
+                                                                                      
+                                                                                      <div class="swiper-button-next"></div>
+                                                                                      <div class="swiper-button-prev"></div>
+                                                                                      <div class="swiper-pagination"></div>
+                                                                          
+                                                                                    </div> -->
 
             <!-- <div class="swiper-slide">
-                                                          <div class="card-recent-class">
-                                                
-                                                            <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
-                                                
-                                                            <div class="desc-card-class">
-                                                              <div class="tags">Bootcamp</div>
-                                                              <hr>
-                                                              <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                              <hr>
-                                                              <div class="price">
-                                                                <ul>
-                                                                  <li class="normal-price">Rp 240,000</li>
-                                                                  <li class="disc-price">Rp 100,000</li>
-                                                                </ul>
-                                                              </div>
-                                                            </div>
-                                                
-                                                          </div>
+                                                                                      <div class="card-recent-class">
+                                                                            
+                                                                                        <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
+                                                                            
+                                                                                        <div class="desc-card-class">
+                                                                                          <div class="tags">Bootcamp</div>
+                                                                                          <hr>
+                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                          <hr>
+                                                                                          <div class="price">
+                                                                                            <ul>
+                                                                                              <li class="normal-price">Rp 240,000</li>
+                                                                                              <li class="disc-price">Rp 100,000</li>
+                                                                                            </ul>
+                                                                                          </div>
+                                                                                        </div>
+                                                                            
+                                                                                      </div>
 
-                                                        </div> -->
+                                                                                    </div> -->
 
             <!-- Card old design -->
             <!-- <div class="swiper-slide">
-                                                          <div class="card-recent-class">
-                                                
-                                                            <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                
-                                                            <div class="desc-card-class">
-                                                              <div class="tags">Bootcamp</div>
-                                                              <hr>
-                                                              <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                              <hr>
-                                                              <div class="price">
-                                                                <ul>
-                                                                  <li class="normal-price">Rp 240,000</li>
-                                                                  <li class="disc-price">Rp 100,000</li>
-                                                                </ul>
-                                                              </div>
-                                                            </div>
-                                                
-                                                          </div>
+                                                                                      <div class="card-recent-class">
+                                                                            
+                                                                                        <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                            
+                                                                                        <div class="desc-card-class">
+                                                                                          <div class="tags">Bootcamp</div>
+                                                                                          <hr>
+                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                          <hr>
+                                                                                          <div class="price">
+                                                                                            <ul>
+                                                                                              <li class="normal-price">Rp 240,000</li>
+                                                                                              <li class="disc-price">Rp 100,000</li>
+                                                                                            </ul>
+                                                                                          </div>
+                                                                                        </div>
+                                                                            
+                                                                                      </div>
 
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                          <div class="card-recent-class">
-                                                
-                                                            <img src="/public/lagiNgoding/assets/images/example-bg.jpg" alt="">
-                                                
-                                                            <div class="desc-card-class">
-                                                              <div class="tags">Bootcamp</div>
-                                                              <hr>
-                                                              <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                              <hr>
-                                                              <div class="price">
-                                                                <ul>
-                                                                  <li class="normal-price">Rp 240,000</li>
-                                                                  <li class="disc-price">Rp 100,000</li>
-                                                                </ul>
-                                                              </div>
-                                                            </div>
-                                                
-                                                          </div>
+                                                                                    </div>
+                                                                                    <div class="swiper-slide">
+                                                                                      <div class="card-recent-class">
+                                                                            
+                                                                                        <img src="/public/lagiNgoding/assets/images/example-bg.jpg" alt="">
+                                                                            
+                                                                                        <div class="desc-card-class">
+                                                                                          <div class="tags">Bootcamp</div>
+                                                                                          <hr>
+                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                          <hr>
+                                                                                          <div class="price">
+                                                                                            <ul>
+                                                                                              <li class="normal-price">Rp 240,000</li>
+                                                                                              <li class="disc-price">Rp 100,000</li>
+                                                                                            </ul>
+                                                                                          </div>
+                                                                                        </div>
+                                                                            
+                                                                                      </div>
 
-                                                        </div> -->
+                                                                                    </div> -->
         </div>
         </div>
         </div>
