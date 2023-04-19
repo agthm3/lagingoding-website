@@ -17,9 +17,10 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/Logo lagingoding-02.ico') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsiveness.css') }}">
+
     <link rel="stylesheet" href="{{ asset('assets/css/bootcamp.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/detail-bootcamp.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/responsiveness.css') }}">
 
     <!-- swiper CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">

@@ -10,7 +10,7 @@
                         <p>LagiNgoding sedang buka pendaftaran BATCH 1 <span>Bootcamp Mobile Development.</span></p>
 
                         <div class="btn-hero">
-                            <button type="button"><a href="{{ route('bootcamp.index') }}"
+                            <button type="button"><a href="{{ route('bootcamp.show') }}"
                                     class="text-decoration-none text-success">Ayo
                                     Daftar</a></button>
                         </div>
@@ -38,7 +38,8 @@
 
                     <li class="card-new-dg">
                         <div class="card-img">
-                            <img src="{{ asset('assets/images/example2.png') }}" alt="">
+                            <a href="{{ route('bootcamp.show') }}"> <img src="{{ asset('assets/images/example2.png') }}"
+                                    alt=""></a>
                         </div>
 
                         <div class="card-content">
@@ -46,16 +47,16 @@
                                 <button type="button">Bootcamp</button>
                             </div>
                             <div class="name">
-                                <button type="button">Lorem Ipdsjfnsjd dnfkjsdn sum is simply dummy text of
-                                    printing</button>
+                                <a href="{{ route('bootcamp.show') }}"> <button type="button">Flutter Mobile
+                                        Development</button></a>
                             </div>
                             <div class="remove-margin">
                                 <hr>
                             </div>
                             <div class="price">
                                 <ul class="price-wrap">
-                                    <li class="normal-price">Rp 240,000</li>
-                                    <li class="disc-price">Rp 100,000</li>
+                                    <li class="normal-price">Rp2.000.000</li>
+                                    <li class="disc-price">Rp1.500.000</li>
                                 </ul>
                             </div>
                         </div>
@@ -67,113 +68,113 @@
 
             <!-- EXAMPLE CARD BUT STILL BROKEN -->
             <!-- <div class="container-slider">
-                                                                                  
-                                                                                  <div class="slider-wrapper">
+                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                          <div class="slider-wrapper">
 
-                                                                                    <!-- <div class="slide-content">
-                                                                                      <div class="card-wrapper swiper-wrapper">
-                                                                            
-                                                                                        <div class="swiper-slide">
-                                                                                          <div class="card-new-dg">
-                                                                                            <div class="card-img">
-                                                                                              <img src="/public/lagiNgoding/assets/images/example2.png" alt="">
-                                                                                            </div>
-                                                                              
-                                                                                            <div class="card-content">
-                                                                                              <div class="tags">
-                                                                                                <button type="button">Bootcamp</button>
-                                                                                              </div>
-                                                                                              <div class="name">
-                                                                                                <button type="button">Lorem Ipdsjfnsjd  dnfkjsdn sum is simply dummy text of printing</button>
-                                                                                              </div>
-                                                                                              <div class="remove-margin">
-                                                                                                <hr>
-                                                                                              </div>
-                                                                                              <div class="price">
-                                                                                                <ul class="price-wrap">
-                                                                                                  <li class="normal-price">Rp 240,000</li>
-                                                                                                  <li class="disc-price">Rp 100,000</li>
-                                                                                                </ul>
-                                                                                              </div>
-                                                                                            </div>
-                                                                                          </div>
-                                                                                        </div>
+                                                                                                                                                                                                                                            <!-- <div class="slide-content">
+                                                                                                                                                                                                                                              <div class="card-wrapper swiper-wrapper">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <div class="swiper-slide">
+                                                                                                                                                                                                                                                  <div class="card-new-dg">
+                                                                                                                                                                                                                                                    <div class="card-img">
+                                                                                                                                                                                                                                                      <img src="/public/lagiNgoding/assets/images/example2.png" alt="">
+                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                    <div class="card-content">
+                                                                                                                                                                                                                                                      <div class="tags">
+                                                                                                                                                                                                                                                        <button type="button">Bootcamp</button>
+                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                      <div class="name">
+                                                                                                                                                                                                                                                        <button type="button">Lorem Ipdsjfnsjd  dnfkjsdn sum is simply dummy text of printing</button>
+                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                      <div class="remove-margin">
+                                                                                                                                                                                                                                                        <hr>
+                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                      <div class="price">
+                                                                                                                                                                                                                                                        <ul class="price-wrap">
+                                                                                                                                                                                                                                                          <li class="normal-price">Rp 240,000</li>
+                                                                                                                                                                                                                                                          <li class="disc-price">Rp 100,000</li>
+                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                                </div>
 
 
-                                                                                      </div>
+                                                                                                                                                                                                                                              </div>
 
-                                                                                      
-                                                                                      <div class="swiper-button-next"></div>
-                                                                                      <div class="swiper-button-prev"></div>
-                                                                                      <div class="swiper-pagination"></div>
-                                                                          
-                                                                                    </div> -->
+                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                              <div class="swiper-button-next"></div>
+                                                                                                                                                                                                                                              <div class="swiper-button-prev"></div>
+                                                                                                                                                                                                                                              <div class="swiper-pagination"></div>
+                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                            </div> -->
 
             <!-- <div class="swiper-slide">
-                                                                                      <div class="card-recent-class">
-                                                                            
-                                                                                        <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
-                                                                            
-                                                                                        <div class="desc-card-class">
-                                                                                          <div class="tags">Bootcamp</div>
-                                                                                          <hr>
-                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                                                          <hr>
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                                        </div>
-                                                                            
-                                                                                      </div>
+                                                                                                                                                                                                                                              <div class="card-recent-class">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <div class="desc-card-class">
+                                                                                                                                                                                                                                                  <div class="tags">Bootcamp</div>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <div class="price">
+                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                                                                                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                                                                                                                                                                    </ul>
+                                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                              </div>
 
-                                                                                    </div> -->
+                                                                                                                                                                                                                                            </div> -->
 
             <!-- Card old design -->
             <!-- <div class="swiper-slide">
-                                                                                      <div class="card-recent-class">
-                                                                            
-                                                                                        <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                            
-                                                                                        <div class="desc-card-class">
-                                                                                          <div class="tags">Bootcamp</div>
-                                                                                          <hr>
-                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                                                          <hr>
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                                        </div>
-                                                                            
-                                                                                      </div>
+                                                                                                                                                                                                                                              <div class="card-recent-class">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <div class="desc-card-class">
+                                                                                                                                                                                                                                                  <div class="tags">Bootcamp</div>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <div class="price">
+                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                                                                                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                                                                                                                                                                    </ul>
+                                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                              </div>
 
-                                                                                    </div>
-                                                                                    <div class="swiper-slide">
-                                                                                      <div class="card-recent-class">
-                                                                            
-                                                                                        <img src="/public/lagiNgoding/assets/images/example-bg.jpg" alt="">
-                                                                            
-                                                                                        <div class="desc-card-class">
-                                                                                          <div class="tags">Bootcamp</div>
-                                                                                          <hr>
-                                                                                          <button type="button">Lorem Ipsum is simply dummy text of printing</button>
-                                                                                          <hr>
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                                        </div>
-                                                                            
-                                                                                      </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="swiper-slide">
+                                                                                                                                                                                                                                              <div class="card-recent-class">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <img src="/public/lagiNgoding/assets/images/example-bg.jpg" alt="">
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                <div class="desc-card-class">
+                                                                                                                                                                                                                                                  <div class="tags">Bootcamp</div>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <button type="button">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                                                                                                                                                                                  <hr>
+                                                                                                                                                                                                                                                  <div class="price">
+                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                                                                                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                                                                                                                                                                    </ul>
+                                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                              </div>
 
-                                                                                    </div> -->
+                                                                                                                                                                                                                                            </div> -->
         </div>
         </div>
         </div>
@@ -197,18 +198,15 @@
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                             aria-controls="panelsStayOpen-collapseOne">
-                                            Accordion Item #1
+                                            Kapan pembelajaran flutter developer dimulai?
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                                         <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
+                                            Kursus flutter akan dilaksanakan selama 1 (satu) bulan sebanyak 8 (delapan) kali
+                                            pertemuan yang akan dimulai pada 6 Mei 2023
+                                            jadwal : Sabtu dan minggu (16:00 - 19:00 WITA)
+
                                         </div>
                                     </div>
                                 </div>
@@ -217,18 +215,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
                                             aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                            Accordion Item #2
+                                            Dimana kelas flutter developer berlangsung? Apakah online atau offline?
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong> It is hidden by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
+                                            Kelas flutter developer akan dilaksanakan secara tatap muka (offline) bertempat
+                                            di Jl. Telkomas Raya (Ruko Dallah Mart 88, Lantai 2)
                                         </div>
                                     </div>
                                 </div>
@@ -237,18 +230,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
                                             aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                            Accordion Item #3
+                                            Apakah ada biaya pendaftarannya?
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
+                                            Terdapat biaya pendaftaran untuk kelas flutter developer, kamu bisa menemukan
+                                            kupon diskon melalui info dari instagram atau website lagingoding
                                         </div>
                                     </div>
                                 </div>
@@ -263,18 +251,12 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseFour">
-                                        Accordion Item #4
+                                        Bagaimana metode pembayarannya?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Pembayaran dapat dilakukan melalui website www.lagingoding.com
                                     </div>
                                 </div>
                             </div>
@@ -283,18 +265,13 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseFive">
-                                        Accordion Item #2
+                                        Apakah pembayaran bisa dicicil?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Bisa! kamu bias menggunakan layanan paylater lain seperti Gopaylater, BRI Ceria,
+                                        Kredivo, Home Credit Indonesia, Indodana untuk melakukan proses cicil.
                                     </div>
                                 </div>
                             </div>
@@ -303,18 +280,15 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseSix">
-                                        Accordion Item #3
+                                        Apa saja manfaat mengikuti kelas di Lagingoding?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Adapun beberapa manfaat yang akan didapatkan, yaitu : Modul pembelajaran sesuai
+                                        kebutuhan industri,Sertifikat, Kaos, Akses internet, Ruang belajar yang nyaman,
+                                        Mentor suportif
+
                                     </div>
                                 </div>
                             </div>
@@ -331,16 +305,16 @@
     <section id="ctaBadge">
         <div class="container">
             <div class="cta-bg">
-                <img src="/public/lagiNgoding/assets/images/lagingoding-logoWhite.png" alt="">
+                <img src="{{ asset('assets/images/lagingoding-logoWhite.png') }}" alt="">
                 <div class="cta-text">
-                    <p>Lorem Ipsum is simply dummy text of the printing and
-                        <span>typesetting industry. Lorem Ipsum has been the </span>
-                        <span>industry's standard dummy text ever since the 1500s.</span>
+                    <p>Bootcamp di lagingoding disusun dengan Kurikulum sesuai standar industri, Belajar intensif secara
+                        offline, Mentor profesional, dan garansi 100% uang kembali jika setelah kursus dan kamu masih belum
+                        bisa.
                     </p>
 
                 </div>
                 <div class="btn-cta">
-                    <button type="button">Daftar Bootcamp</button>
+                    <a href="{{ route('bootcamp.show') }}"> <button type="button">Daftar Bootcamp</button></a>
                 </div>
 
             </div>

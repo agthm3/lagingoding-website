@@ -40,8 +40,8 @@
                                 <div class="details">
                                     <div class="price">
                                         <ul class="price-wrapper">
-                                            <li class="normal-price">Rp2.300.000</li>
-                                            <li class="disc-price">Rp1.500.000</li>
+                                            {{-- <li class="normal-price">Rp2.300.000</li> --}}
+                                            <li class="disc-price">Rp2.000.000</li>
                                         </ul>
                                     </div>
 
@@ -60,266 +60,266 @@
                 </ul>
 
                 <!-- <div class="row">
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
-                                                                                          </div>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
-                                                                                          </div>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                              </div>
-                                                                              
-                                                                              <div class="row">
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
                                                                                         </div>
                                                                                       </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
-                                                                                          </div>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
-                                                                                          </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
+                                                                                      
+                                                                                      <div class="row">
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                  <div class="card-bootcamp">
-                                                                                      <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                                                                        
-                                                                                      <div class="tags-wrapper">
-                                                                                        <div class="tags-bootcamp">
-                                                                                          <button type="button">Beginner</button>
-                                                                                          <button type="button">Projects</button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                        
-                                                                                      <div class="desc-bootcamp">
-                                                                                        <a href="#">MOBILE Development</a>
-                                                                                        <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
-                                                                        
-                                                                                        <div class="details">
-                                                                                          <div class="price">
-                                                                                            <ul>
-                                                                                              <li class="normal-price">Rp 240,000</li>
-                                                                                              <li class="disc-price">Rp 100,000</li>
-                                                                                            </ul>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
-                                                                        
-                                                                                          <div class="btn-detail">
-                                                                                            <button type="button">
-                                                                                              <i class="bi bi-arrow-right-circle-fill"></i>
-                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                              </div> -->
+                                                                                        <div class="col-md-3">
+                                                                                          <div class="card-bootcamp">
+                                                                                              <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
+                                                                                
+                                                                                              <div class="tags-wrapper">
+                                                                                                <div class="tags-bootcamp">
+                                                                                                  <button type="button">Beginner</button>
+                                                                                                  <button type="button">Projects</button>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                
+                                                                                              <div class="desc-bootcamp">
+                                                                                                <a href="#">MOBILE Development</a>
+                                                                                                <button type="button" class="bootcamp-title">Lorem Ipsum is simply dummy text of printing</button>
+                                                                                
+                                                                                                <div class="details">
+                                                                                                  <div class="price">
+                                                                                                    <ul>
+                                                                                                      <li class="normal-price">Rp 240,000</li>
+                                                                                                      <li class="disc-price">Rp 100,000</li>
+                                                                                                    </ul>
+                                                                                                  </div>
+                                                                                
+                                                                                                  <div class="btn-detail">
+                                                                                                    <button type="button">
+                                                                                                      <i class="bi bi-arrow-right-circle-fill"></i>
+                                                                                                    </button>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div> -->
 
             </div>
         </div>
