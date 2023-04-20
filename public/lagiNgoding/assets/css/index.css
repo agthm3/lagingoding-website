@@ -84,6 +84,23 @@ nav .navbar-nav-link .nav-link.active{
   color: var(--teal);
 }
 
+nav ul.navbar-nav li.nav-item button{
+  background-color: var(--teal);
+  border: none;
+  border-radius: var(--btn-rad);
+  color: var(--white);
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+}
+
+nav ul.navbar-nav li.nav-item button:hover{
+  background-color: transparent;
+  border: solid 1px var(--teal);
+  border-radius: var(--btn-rad);
+  color: var(--teal);
+}
+
 section .title h1{
   margin-top: -6px;
   font-size: 36px;
