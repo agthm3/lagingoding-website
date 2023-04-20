@@ -76,14 +76,17 @@ section#login .container-login ul.login li.login-form h1{
   margin-bottom: 0;
 }
 
-
 section#login .container-login ul.login li.login-form form label.form-label{
-  padding-left: 0;
   font-size: 14px;
+  padding: 1rem 0.75rem 1rem 0;
+}
+
+section#login .container-login ul.login li.login-form .form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
+  background-color: transparent;
 }
 
 section#login .container-login ul.login li.login-form form input.form-control{
-    padding: 26px 0 6px 0;
+    padding: 26px 0 6px 3px;
     border-top: none;
     border-left: none;
     border-right: none;
