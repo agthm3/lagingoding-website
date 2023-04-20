@@ -697,6 +697,10 @@
   section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li {
     font-size: 14px;
   }
+
+  section#hero-message .hero-bg .image {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width : 332px) {
@@ -712,6 +716,10 @@
   section#login .container-login ul.login li.login-form .register a {
     font-weight: var(--medium);
     text-align: center;
+  }
+
+  section#hero-message .hero-bg .image {
+    width: 68%;
   }
 
 }
