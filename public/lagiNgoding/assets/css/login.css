@@ -1,49 +1,140 @@
-/* section#login{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: brown;
-}
-
-section#login .login-form{
-  background-color: aqua;
-  width: 400px;
-  margin: 20px;
-  display: flex;
-} */
-
-section#login{
-  height: 100vh;
+section#login {
   margin: 0;
-  background-color: var(--teal);
+  background-color: var(--white-bg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-section#login .checkbox input{
-  margin-right: 12px;
+section#login .container-login{
+  background-color: var(--teal);
+  height: 460px;
+  width: 720px;
+  border-radius: 36px;
+  height: 460px;
 }
 
-section#login .btn-login{
-  background-color: var(--teal);
-  padding: 8px 30px;
-  border: none;
-  border-radius: var(--btn-rad);
+section#login .container-login ul.login{
+  height: 100%;
+}
+
+section#login .container-login ul.login > li{
+  margin: 0 16px 0 0;
+}
+
+section#login .container-login ul.login li.info{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: end;
+  padding: 20px 0 0 30px;
+  width: 312px;
+  height: 460px;
+}
+section#login .container-login ul.login li.info img.logo{
+  width: 128px;
+}
+
+section#login .container-login ul.login li.info h1{
+  font-size: 26px;
+  font-weight: var(--bold);
+  margin: 28px 0 120px;
   color: var(--white);
 }
 
-section#login .form-input input.form-control{
+section#login .container-login ul.login li.info h1 span{
+  display: block;
+}
+
+section#login .container-login ul.login li.info .img-vector img.vector-img{
+  width: 240px;
+}
+
+section#login .container-login ul.login li.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 36px;
+  background-color: var(--white);
+  padding: 20px;
+  width: 368px;
+  height: 360px;
+}
+
+section#login .container-login ul.login li.login-form > *{
+  /* margin-top: 12px; */
+}
+
+section#login .container-login ul.login li.login-form h1{
   font-size: 16px;
+  font-weight: var(--semi-bold);
+  color: var(--black);
+  width: 280px;
+  margin-bottom: 0;
 }
 
-section#login .sign-up{
-  margin-top: 24px;
+section#login .container-login ul.login li.login-form form label.form-label{
+  font-size: 14px;
+  padding: 1rem 0.75rem 1rem 0;
 }
 
-section#login .sign-up h4{
-  font-size: 16px;
+section#login .container-login ul.login li.login-form .form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
+  background-color: transparent;
 }
 
-section#login .sign-up h4 a{
+section#login .container-login ul.login li.login-form form input.form-control{
+    padding: 26px 0 6px 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: var(--regular);
+    background: transparent;
+    color: var(--black);
+    transition: all 0.5 ease;
+    border-radius: 0;
+    width: 280px;
+}
+
+section#login .container-login ul.login li.login-form form input.form-control:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+section#login .container-login ul.login li.login-form .button-login {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+section#login .container-login ul.login li.login-form .button-login button{
+  width: 100%;
+  background-color: var(--teal);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  padding: 6px 0;
+  border: none;
+  border-radius: 20px;
+}
+
+section#login .container-login ul.login li.login-form .register{
+  display: flex;
+  justify-content: center;
+}
+
+section#login .container-login ul.login li.login-form .register a{
   text-decoration: none;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: var(--semi-bold);
+}
+
+section#login .container-login ul.login li.login-form .register a span{
   color: var(--teal);
 }
