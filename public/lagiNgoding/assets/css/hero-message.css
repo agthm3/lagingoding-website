@@ -1,0 +1,44 @@
+section#hero-message {
+  margin: 38px 0;
+}
+
+section#hero-message .hero-bg{
+  background-color: var(--teal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  border-radius: var(--hero-rad);
+}
+
+section#hero-message .hero-bg > div{
+  margin: 10px 0;
+}
+
+section#hero-message .hero-bg .image{
+  width: 280px;
+}
+
+section#hero-message .hero-bg .image img{
+  width: 100%;
+}
+
+section#hero-message .hero-bg .message {
+  width: 100%;
+}
+
+section#hero-message .hero-bg .message > h1, p{
+  text-align: center;
+  color: var(--white);
+}
+
+section#hero-message .hero-bg .message h1{
+  font-size: 28px;
+  font-weight: var(--bold);
+}
+
+section#hero-message .hero-bg .message p{
+  font-size: 14px;
+  font-weight: var(--medium);
+}

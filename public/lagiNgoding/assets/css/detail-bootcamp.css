@@ -137,8 +137,15 @@ section#tools .container-tools li .card-tools{
   padding: 20px 0;
 }
 
+section#tools .container-tools li .card-tools .card-img {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section#tools .container-tools li .card-tools .card-img img{
-  width: 100%;
+  width: 90px;
   height: 96px;
   object-fit: contain;
   padding: 6px;
@@ -195,6 +202,15 @@ section#learn .title{
 
 section#learn .title h1{
   line-height: 40px;
+}
+
+section#learn .title button{
+  background-color: var(--teal);
+  border: none;
+  border-radius: var(--btn-rad);
+  padding: 6px 12px;
+  color: var(--white);
+  font-size: 14px;
 }
 
 section#learn .accordion .accordion-item{
@@ -336,14 +352,17 @@ section#mentor .card-mentor > div{
 }
 
 section#mentor .card-mentor .mentor-image{
-  width: 140px;
   background-color: var(--teal);
   border-radius: 50%;
+  width: 138px;
+  height: 138px;
 }
 
 section#mentor .card-mentor .mentor-image img{
   width: 100%;
+  height: 100%;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 section#mentor .card-mentor .mentor-name {
@@ -352,6 +371,42 @@ section#mentor .card-mentor .mentor-name {
 }
 
 section#mentor .card-mentor .mentor-job{
+  font-size: 16px;
+  color: var(--gray);
+}
+
+section#question .container-card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section#question .container-card .card-whatsapp{
+  background-color: var(--white);
+  padding: 28px 4px;
+  width: 340px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--btn-rad);
+}
+
+section#question .container-card .card-whatsapp a{
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: var(--semi-bold);
+}
+
+section#question .container-card .card-whatsapp a i{
+  color: var(--teal);
+}
+
+section#question .container-card .card-whatsapp p{
+  margin-bottom: 0;
+  margin-top: 4px;
   font-size: 16px;
   color: var(--gray);
 }
