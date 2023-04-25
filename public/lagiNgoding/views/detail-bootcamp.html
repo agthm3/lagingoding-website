@@ -1,707 +1,512 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello, LagiNgoding!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css" integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/bootstrap-icons.svg" integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/x-icon" href="/public/lagiNgoding/assets/images/Logo lagingoding-02.ico">
-    <link rel="stylesheet" href="/public/lagiNgoding/assets/css/index.css">
-    <link rel="stylesheet" href="/public/lagiNgoding/assets/css/detail-bootcamp.css">
-    <link rel="stylesheet" href="/public/lagiNgoding/assets/css/responsiveness.css">
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/public/lagiNgoding/assets/images/lagingoding-logo.png" alt="LagiNgoding-logo" width="112">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbar-nav-link">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="/public/lagiNgoding/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/public/lagiNgoding/views/bootcamp.html">Bootcamp</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kelas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <button class="login" type="button" onclick="location.href='/public/lagiNgoding/views/login.html';">Login</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-    <section id="heroDetailBootcamp">
-      <div class="container">
-        <div class="hero-bg">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-8 order-1">
-              <div class="hero-text">
-                <div class="title">
-                  <h4>Mobile Bootcamp</h4>
-                  <h1>Lorem Ipsum is simply dummy text of printing</h1>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              </div>
-            </div>
-            <div class="col-md-4 order-md-1">
-              <div class="hero-img">
-                <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
-              </div>
+body{
+  background-color: var(--white-bg);
+}
 
-            </div>
-          </div>
-          <!-- <ul>
-            <li class="hero-text bg-warning">
-              <div class="title">
-                <h4>Mobile Bootcamp</h4>
-                <h1>Lorem Ipsum is simply dummy text of printing</h1>
-              </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </li>
+nav{
+  background-color: var(--white);
+}
 
-            <li class="hero-img bg-info">
-              <img src="/public/lagiNgoding/assets/images/example-card-image.png" alt="">
-            </li>
-          </ul> -->
+section#heroDetailBootcamp .title{
+  text-align: left;
+  padding: 0;
+}
 
-        </div>
-      </div>
-    </section>
+section#heroDetailBootcamp .hero-bg{
+  width: 100%;
+}
 
-    <section id="descBootcamp">
-      <div class="container">
-        <div class="title">
-          <!-- <h4>Kelas Terbaru</h4> -->
-          <h1>Mengapa Penting?</h1>
-        </div>
+section#heroDetailBootcamp .hero-bg ul{
+  justify-content: space-between;
+}
 
-        <div class="container-desc">
-          <img src="/public/lagiNgoding/assets/images/example-bg.jpg" alt="">
+section#heroDetailBootcamp .hero-bg .hero-text{
+  padding: 0 12px;
+}
 
-          <div class="text-wrapper">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
+section#heroDetailBootcamp .hero-bg .hero-img{
+  width: 100%;
+}
 
-          </div>
+section#heroDetailBootcamp .hero-bg .hero-text .title h4{
+  font-size: 18px;
+  font-weight: var(--bold);
+  color: var(--teal);
+}
 
-          <div class="info-bootcamp">
-            <ul class="info-list">
-              <li>
-                <div class="info-title">Registrasi</div>
-                <div class="desc">20 April - 15 Mei 2023</div>
-              </li>
-              <li>
-                <div class="info-title">Registrasi</div>
-                <div class="desc">20 April - 15 Mei 2023</div>
-              </li>
-            </ul>
-          </div>
-        </div>
+section#heroDetailBootcamp .hero-bg .hero-text .title h1{
+  margin-top: -6px;
+  font-size: 26px;
+  font-weight: var(--bold);
+  color: var(--black);
+}
 
-      </div>
-    </section>
+section#heroDetailBootcamp .hero-bg .hero-text p{
+  padding-right: 80px;
+  text-align: justify;
+  font-size: 16px;
+}
 
-    <section id="tools">
-      <div class="container">
-        <div class="title">
-          <h4>Tools</h4>
-          <h1>yang digunakan</h1>
-        </div>
+section#heroDetailBootcamp .hero-bg .hero-img{
+  display: flex;
+  justify-content: center;
+  padding: 6px 0;
+}
 
-        <div class="container-tools">
-          <ul class="tools-list">
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/LinkedIn-Logo.png" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHssa asopP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card-tools">
-                <div class="card-img">
-                  <img src="/public/lagiNgoding/assets/images/PHP-logo.svg" alt="">
-                </div>
-                <div class="card-desc">
-                  <div class="title-desc">
-                    <ul>
-                      <li>PHP </li>
-                      <li><button type="button"><i class="bi bi-download"></i></button></li>
-                    </ul>
-                  </div>
-                  <div class="desc">Bahasa pemrogramman</div>
-                </div>
-              </div>
-            </li>
+section#heroDetailBootcamp .hero-bg .hero-img img{
+  width: 252px;
+  height: 336px;
+  object-fit: cover;
+  border-radius: var(--btn-rad);
+}
 
-          </ul>
-        </div>
-      </div>
-    </section>
+section#descBootcamp .container-desc{
+  /* max-width: 1140px; */
+  padding: 12px 18px;
+}
 
-    <section id="learn">
-      <div class="container">
-        <div class="row learn-wrapper">
-          <div class="col-md-4">
-            <div class="title">
-              <h4>Materi</h4>
-              <h1>Apa saja yang dipelajari?</h1>
-              <button type="button" class="btn-download">Download Silabus kelas</button>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                    <i class="number">1</i>
-                    <i class="text">Perkenalan dan Setup.</i>
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <ul class="list-detail">
+section#descBootcamp .container .title {
+  text-align: center;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Perkenalan</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container .title h1{
+  margin-top: -6px;
+  font-size: 26px;
+  font-weight: var(--bold);
+  color: var(--black);
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Library</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container-desc img{
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: var(--btn-rad);
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Architecture</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container-desc .text-wrapper {
+  padding-top: 16px;
+}
 
-                    </ul>
-                  
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-                    <i class="number">2</i>
-                    <i class="text">Perkenalan dan Setup.</i>
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <ul class="list-detail">
+section#descBootcamp .container-desc .text-wrapper p{
+  text-align: justify;
+  margin: 8px 0;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Perkenalan</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container-desc .info-bootcamp{
+  margin-top: 24px;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Library</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container-desc .info-bootcamp ul.info-list{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 10px 20px */
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Architecture</li>
-                        </ul>
-                      </li>
+section#descBootcamp .container-desc .info-bootcamp ul.info-list li{
+  /* flex-grow: 2; */
+  background-color: var(--white);
+  width: 48%;
+  border-radius: var(--btn-rad);
+  display: flex;
+  flex-direction: column;
+  padding: 8px 14px;
+  margin: 6px 0;
+}
 
-                    </ul>
-                  
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
-                    <i class="number">3</i>
-                    <i class="text">Perkenalan dan Setup.</i>
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <ul class="list-detail">
+section#descBootcamp .container-desc .info-bootcamp ul.info-list li .info-title{
+  font-weight: var(--semi-bold);
+  margin-bottom: 6px;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Perkenalan</li>
-                        </ul>
-                      </li>
+section#tools .title{
+  text-align: center;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Library</li>
-                        </ul>
-                      </li>
+section#tools .container-tools ul.tools-list{
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-                      <li>
-                        <ul>
-                          <li><i class="bi bi-check-circle-fill"></i></li>
-                          <li class="text">Setup Architecture</li>
-                        </ul>
-                      </li>
+section#tools .container-tools li {
+  padding: 10px;
+}
 
-                    </ul>
-                  
-                  </div>
-                </div>
-              </div>
+section#tools .container-tools li .card-tools{
+  background-color: var(--white);
+  border-radius: var(--btn-rad);
+  width: 180px;
+  padding: 20px 0;
+}
 
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+section#tools .container-tools li .card-tools .card-img {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    <section id="review">
-      <div class="container">
-        <div class="title">
-          <h4>Review</h4>
-          <h1>Apa kata Alumni</h1>
-        </div>
+section#tools .container-tools li .card-tools .card-img img{
+  width: 90px;
+  height: 96px;
+  object-fit: contain;
+  padding: 6px;
+}
 
-        <div class="container-review">
-          <div class="review-wrapper snaps-inline">
+section#tools .container-tools ul.tools-list li .card-tools ul{
+  justify-content: center;
+  flex-direction: column;
+}
 
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
-            
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
+section#tools .container-tools ul.tools-list li .card-tools ul > li{
+  margin: 6px 0 0;
+}
 
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
-            
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
+section#tools .container-tools ul.tools-list li .card-tools .card-desc {
+  padding: 0 8px;
+}
 
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
-            
-            <div class="card-review">
-              <div class="reviewer-name">Siti Nurhalisa</div>
-              <div class="reviewer-star">
-                <ul>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                  <li><img src="/public/lagiNgoding/assets/images/star.png" alt=""></li>
-                </ul>
-              </div>
-              <div class="reviewer-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </div>
-            </div>
+section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li{
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+  padding: 0 4px;
+  text-align: center;
+}
 
-          </div>
-        </div>
-      </div>
-    </section>
+section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li button{
+  border: none;
+  background-color: transparent;
+  display: flex;
+  height: 22px;
+  justify-content: center;
+  align-items: center;
+}
 
-    <section id="mentor">
-      <div class="container">
-        <div class="title">
-          <h4>Mentor</h4>
-          <h1>Kenalan Yuk</h1>
-        </div>
+section#tools .container-tools ul.tools-list li .card-tools .card-desc .title-desc ul li i{
+  font-size: 12px;
+}
 
-        <div class="container-mentor">
-          <div class="mentor-wrapper">
-            <div class="card-mentor">
-              <div class="mentor-image">
-                <img src="/public/lagiNgoding/assets/images/profil.png" alt="" oncontextmenu="return false;" draggable="false" (dragstart)="false;">
-              </div>
-              <div class="mentor-name"><span>Kak</span> Jane Doe</div>
-              <div class="mentor-job">
-                Flutter Developer
-              </div>
-            </div>
+section#tools .container-tools ul.tools-list li .card-tools .card-desc .desc{
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray);
+}
 
-          </div>
-        </div>
-      </div>
-    </section>
+section#learn .learn-wrapper{
+  align-items: center;
+  padding: 40px 0;
+}
 
-    <section id="question">
-      <div class="container">
-        <div class="title">
-          <h4>Masih ada pertanyaan?</h4>
-          <h1>Yuk tanyakan langsung</h1>
-        </div>
+section#learn .title{
+  text-align: left;
+  width: 260px;
+}
 
-        <div class="container-card">
-          <div class="card-whatsapp">
-            <a href=""> <i class="bi bi-whatsapp"></i> Tanyakan Via Whatsaap!</a>
-            <p>085175194559</p>
-          </div>
-        </div>
-      </div>
-    </section>
+section#learn .title h1{
+  line-height: 40px;
+}
 
-    <section id="bootcampCard">
-      <div class="container">
-        <div class="title">
-          <h4>Daftar</h4>
-          <h1>Bootcamp</h1>
-        </div>
+section#learn .title button{
+  background-color: var(--teal);
+  border: none;
+  border-radius: var(--btn-rad);
+  padding: 6px 12px;
+  color: var(--white);
+  font-size: 14px;
+}
 
-        <div class="container-bootcamp">
-          <div class="bootcamp-wrapper">
-            <div class="card-bootcamp">
-              <div class="img-card">
-                <div class="bootcamp-img">
-                  <img src="/public/lagiNgoding/assets/images/example1.png" alt="">
-                </div>
-              </div>
-              <div class="content-card">
-                <div class="bootcamp-name">Flutter Bootcamp BootcampBootcamp Bootcampamp Bootcamp Bootcamp </div>
-                <div class="bootcamp-desc">
-                  Ikuti bootcamp berkualitas untuk mengasah skill dan membangun portofolio
-                </div>
-                <div class="bootcamp-price">
-                  <ul>
-                    <li class="normal-price">Rp 240,000</li>
-                    <li class="disc-price">Rp 240,000</li>
-                  </ul>
-                </div>
-                <div class="bootcamp-btn">
-                  <button type="button">Daftar Sekarang</button>
-                </div>
+section#learn .accordion .accordion-item{
+  margin: 16px 0 0;
+  border: none;
+  background-color: var(--white);
+  border-radius: var(--btn-rad); 
+}
 
-              </div>
-            </div>
+section#learn .accordion .accordion-item .accordion-button{
+  box-shadow: none;
+}
 
-          </div>
-        </div>
-      </div>
-    </section>
+section#learn .accordion .accordion-item button{
+  border-radius: var(--btn-rad);
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  border-bottom: 0;
+}
 
-    <section id="ctaBadge">
-      <div class="container">
-        <div class="cta-bg">
-          <img src="/public/lagiNgoding/assets/images/lagingoding-logoWhite.png" alt="">
-          <div class="cta-text">
-            <p>Lorem Ipsum is simply dummy text of  the printing and 
-              <span>typesetting industry. Lorem Ipsum has been the </span>
-              <span>industry's standard dummy text ever since the 1500s.</span>
-            </p>
+section#learn .accordion .accordion-item h2 button:focus{
+  outline: none;
+}
 
-          </div>
-          <div class="btn-cta">
-            <button type="button">Daftar Bootcamp</button>
-          </div>
-
-        </div>
-      </div>
-    </section>
+section#learn .accordion .accordion-item h2 button i.number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--teal);
+  color: var(--white);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: var(--semi-bold);
+  margin-right: 12px;
+}
 
 
-    <footer>
-      <div class="container">
-        <div class="row">
+section#learn .accordion .accordion-item h2 button i.text{
+  font-size: 18px;
+  font-weight: var(--semi-bold);
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-          <div class="col-md-4 desc-lagiNgoding">
-            <img src="/public/lagiNgoding/assets/images/lagingoding-logoWhite.png" alt="">
+section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail{
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-            <p>Lorem Ipsum is simply dummy text of  the printing and <span>typesetting industry. Lorem Ipsum has been the </span> <span>industry's standard dummy text ever since the 1500s.</span>
-            </p>
-          </div>
+section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li{
+  margin-left: 6px;
+}
 
-          <div class="col-md-4">
-            <h4>Top Classes</h4>
-            
-            <ul>
-              <li>
-                <a href="#">Lorem simply dumy text</a>
-              </li>
-              <li>
-                <a href="#">Lorem Ipsum is simply dumy text</a>
-              </li>
-              <li>
-                <a href="#">Lorem Ipsum is simply dumy text</a>
-              </li>
-            </ul>
+section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul {
+  margin-bottom:12px;
+}
 
-          </div>
+section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul li i{
+  color: var(--gray);
+}
 
+section#learn .accordion .accordion-item .accordion-collapse .accordion-body ul.list-detail li ul li.text{
+  margin-left: 12px;
+}
 
-          <div class="col-md-4">
-            <h4>Quick Links</h4>
+section#review .container-review .snaps-inline{
+  scroll-snap-type: inline mandatory;
 
-            <ul>
-              <li>
-                <a href="#">Lorem simply dumy text</a>
-              </li>
-              <li>
-                <a href="#">Lorem Ipsum is simply dumy text</a>
-              </li>
-              <li>
-                <a href="#">Lorem Ipsum is simply dumy text</a>
-              </li>
-            </ul>
-          </div>
+}
 
-        </div>
-        
-        <hr>
-        
-        <ul class="bottom-footer">
-          <li class="copyright">@2023 LagiNgoding</li>
-          <li>
-            <ul class="socmed">
-              <li>
-                <a href="#">
-                  <i class="bi bi-instagram"></i>
-                  <!-- <img src="/public/lagiNgoding/assets/images/Instagram-Logo.png" alt=""> -->
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="bi bi-linkedin"></i>
-                  <!-- <img src="/public/lagiNgoding/assets/images/LinkedIn-Logo.png" alt=""> -->
-                </a>
-                
-              </li>
-              <li>
-                <a href="#">
-                  <i class="bi bi-whatsapp"></i>
-                  <!-- <img src="/public/lagiNgoding/assets/images/WhatsApp-Logo.png" alt=""> -->
-                  
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </footer>
+section#review .container-review .review-wrapper{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  display: grid;
+  grid-auto-flow: column;
+  gap: 12px;
+  overflow-x: scroll;
+  padding: 0 0 6px;
+  overscroll-behavior-inline: contain;
+  /* overflow-x: auto; */
+}
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-  </body>
-</html>
+section#review .card-review{
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  padding: 18px;
+  border-radius: var(--btn-rad);
+  margin: 12px;
+}
+
+section#review .card-review .reviewer-name {
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+  margin-bottom: 14px
+}
+
+section#review .card-review .reviewer-star ul li {
+  padding-right: 4px;
+}
+
+section#review .card-review .reviewer-star ul li img{
+  width: 24px;
+}
+
+section#review .card-review .reviewer-text{
+  font-size: 14px;
+  text-align: justify;
+}
+
+section#mentor .card-mentor{
+  background-color: var(--white);
+  padding: 24px 0;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--btn-rad);
+}
+
+section#mentor .mentor-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section#mentor .card-mentor > div{
+  margin: 8px 0;
+}
+
+section#mentor .card-mentor .mentor-image{
+  background-color: var(--teal);
+  border-radius: 50%;
+  width: 138px;
+  height: 138px;
+}
+
+section#mentor .card-mentor .mentor-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section#mentor .card-mentor .mentor-name {
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+}
+
+section#mentor .card-mentor .mentor-job{
+  font-size: 16px;
+  color: var(--gray);
+}
+
+section#question .container-card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section#question .container-card .card-whatsapp{
+  background-color: var(--white);
+  padding: 28px 4px;
+  width: 340px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--btn-rad);
+}
+
+section#question .container-card .card-whatsapp a{
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: var(--semi-bold);
+}
+
+section#question .container-card .card-whatsapp a i{
+  color: var(--teal);
+}
+
+section#question .container-card .card-whatsapp p{
+  margin-bottom: 0;
+  margin-top: 4px;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+section#bootcampCard .container-bootcamp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#bootcampCard .container-bootcamp .bootcamp-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#bootcampCard .card-bootcamp{
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--btn-rad);
+}
+
+section#bootcampCard .card-bootcamp > div{
+  margin: 12px;
+}
+
+section#bootcampCard .card-bootcamp .img-card{
+  width: 280px;
+}
+
+section#bootcampCard .card-bootcamp .content-card{
+  width: 460px;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-img{
+  height: 312px;
+  object-fit: cover;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: var(--btn-rad);
+  object-fit: cover;
+}
+
+section#bootcampCard .card-bootcamp .content-card > div{
+  margin: 12px 0 0;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-name{
+  font-size: 24px;
+  font-weight: var(--bold);
+  text-align: left;
+  line-height: 28px;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-desc{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  color: var(--gray);
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-price ul{
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-price ul li{
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: var(--semi-bold);
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-price ul li.normal-price{
+  text-decoration: line-through;
+  color: var(--gray);
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-price ul li.disc-price{
+  color: var(--teal);
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-btn{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+section#bootcampCard .card-bootcamp .bootcamp-btn button{
+  border: none;
+  border-radius: var(--btn-rad);
+  background-color: var(--teal);
+  font-size: 16px;
+  color: var(--white);
+  padding: 8px 28px;
+  margin-top: 12px;
+}
