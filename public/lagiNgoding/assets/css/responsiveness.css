@@ -722,4 +722,34 @@
     width: 68%;
   }
 
+  section#question .container-card .card-whatsapp {
+    padding: 24px 4px;
+    width: 340px;
+    height: 100px;
+  }
+
+  section#question .container-card .card-whatsapp a {
+    font-size: 14px;
+  }
+
+  section#question .container-card .card-whatsapp p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width : 256px) {
+
+  section#question .container-card .card-whatsapp {
+    padding: 20px 4px;
+    width: 340px;
+    height: 82px;
+  }
+
+  section#question .container-card .card-whatsapp a {
+    font-size: 12px;
+  }
+
+  section#question .container-card .card-whatsapp p {
+    font-size: 12px;
+  }
 }
